@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"   
+      prefHeight="172.0" prefWidth="524.0" xmlns:fx="http://javafx.com/fxml" fx:controller="graphicx.Controller.ConfirmPopup">
+  <children>
+    <VBox prefHeight="172.0" prefWidth="524.0" styleClass="vboxes" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <HBox alignment="CENTER" prefHeight="58.0" prefWidth="516.0" spacing="30.0">
+          <children>
+            <Button mnemonicParsing="false" onAction="#handleYesClick" text="Yes" />
+            <Button mnemonicParsing="false" onAction="#handleNoClick" text="No" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

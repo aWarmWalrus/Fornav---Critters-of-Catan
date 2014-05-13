@@ -1,0 +1,5 @@
+rock 0 0
+rock 2 2
+rock 4 4
+rock 1 1
+critter C:\\Users\\awarm_000\\Documents\\CS2112\\Eugenics\\assignment6\\cqkiller.txt 3 5 3

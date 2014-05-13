@@ -1,0 +1,12 @@
+memsize: 8
+defense: 3
+offense: 3
+size: 1
+energy: 100
+posture: 3
+
+ENERGY < 100 --> wait;
+
+ENERGY > 100 and nearby[0] > 0 and mem[6] = 0 --> tag[10];
+
+ENERGY = 121 --> attack;

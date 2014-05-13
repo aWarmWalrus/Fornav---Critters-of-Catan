@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane" id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="899.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="900.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <SplitPane dividerPositions="0.6833890746934225" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: rgba(0, 100, 100, 0.0); -fx-background-radius: 10;" VBox.vgrow="ALWAYS">
+          <items>
+            <ScrollPane pannable="true" prefHeight="-1.0" prefWidth="-1.0">
+              <content>
+                <AnchorPane id="Content" fx:id="theView" minHeight="-1.0" minWidth="-1.0" prefHeight="576.0" prefWidth="895.0">
+                  <children>
+                    <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" style="&#10;" text="View" textAlignment="CENTER" wrapText="false">
+                      <font>
+                        <Font size="18.0" />
+                      </font>
+                      <textFill>
+                        <Color blue="0.624" green="0.624" red="0.624" fx:id="x1" />
+                      </textFill>
+                    </Label>
+                  </children>
+                </AnchorPane>
+              </content>
+            </ScrollPane>
+            <AnchorPane maxWidth="281.0" minWidth="0.0" opacity="1.0" style="-fx-background-color: rgba(100, 100, 0, .4);&#10;">
+              <children>
+                <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" style="&#10;" text="Details" textAlignment="CENTER" textFill="$x1" wrapText="false">
+                  <font>
+                    <Font name="Imprint MT Shadow" size="18.0" />
+                  </font>
+                </Label>
+                <VBox alignment="BOTTOM_CENTER" layoutX="14.0" layoutY="41.0" prefHeight="526.0" prefWidth="247.0">
+                  <children>
+                    <VBox alignment="TOP_LEFT" prefHeight="130.0" prefWidth="237.0" spacing="4.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" minHeight="21.0" prefHeight="25.0" prefWidth="237.0" spacing="10.0">
+                          <children>
+                            <Label maxHeight="24.0" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" text="Critters" HBox.hgrow="NEVER">
+                              <font>
+                                <Font name="Imprint MT Shadow" size="20.0" fx:id="x2" />
+                              </font>
+                            </Label>
+                            <Label fx:id="critterErrorMessage" text="" textAlignment="CENTER" textFill="RED" wrapText="true" HBox.hgrow="NEVER" />
+                          </children>
+                        </HBox>
+                        <Separator prefWidth="200.0" />
+                        <HBox alignment="CENTER_LEFT" prefHeight="24.0" prefWidth="237.0" spacing="10.0">
+                          <children>
+                            <Button mnemonicParsing="false" onMouseClicked="#handleSelectCritter" prefWidth="54.0" text="Select" />
+                            <Label fx:id="critterFileLabel" text="&lt;no critter selected&gt;" />
+                          </children>
+                        </HBox>
+                        <HBox prefHeight="21.0" prefWidth="237.0" spacing="5.0">
+                          <children>
+                            <Button id="placeCritters" fx:id="placeCritter" disable="true" mnemonicParsing="false" onMouseClicked="#handlePlaceCritter" prefWidth="54.0" text="Place" />
+                            <TextField id="critterColumn" fx:id="critterPlaceCol" prefWidth="50.0" promptText="Col" />
+                            <TextField id="critterRow" fx:id="critterPlaceRow" prefWidth="50.0" promptText="Row" />
+                          </children>
+                        </HBox>
+                        <HBox prefHeight="21.0" prefWidth="237.0" spacing="5.0">
+                          <children>
+                            <Button fx:id="addCritters" disable="true" mnemonicParsing="false" onMouseClicked="#handleAddCritters" prefWidth="54.0" text="Add" />
+                            <TextField id="critterCohort" fx:id="crittersBeingAdded" prefWidth="95.0" promptText="How Many?" />
+                          </children>
+                        </HBox>
+                      </children>
+                    </VBox>
+                    <VBox minHeight="33.0" prefHeight="147.0" prefWidth="247.0" spacing="4.0">
+                      <children>
+                        <HBox alignment="CENTER_LEFT" fillHeight="false" prefHeight="31.0" prefWidth="247.0" spacing="10.0">
+                          <children>
+                            <Label font="$x2" text="World" />
+                            <Label id="worldErrorBar" fx:id="worldErrorMessage" text="" textFill="RED" />
+                          </children>
+                        </HBox>
+                        <Separator prefWidth="237.0" />
+                        <Button mnemonicParsing="false" onMouseClicked="#handleNewWorld" text="New" />
+                        <HBox alignment="CENTER_LEFT" prefHeight="24.0" prefWidth="130.0" spacing="10.0">
+                          <children>
+                            <Button mnemonicParsing="false" onMouseClicked="#handleLoadWorld" text="Load" />
+                            <Label fx:id="worldFileLabel" alignment="CENTER" text="&lt;no file selected&gt;" textAlignment="CENTER" />
+                          </children>
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" prefHeight="53.0" prefWidth="247.0" spacing="20.0">
+                          <children>
+                            <StackPane maxHeight="43.0" minHeight="34.0" minWidth="37.0" prefHeight="43.0" prefWidth="43.0">
+                              <children>
+                                <ImageView fx:id="playButton" fitHeight="43.0" fitWidth="40.0" onMouseClicked="#handlePlay" onMouseEntered="#lightenPlay" onMouseExited="#darkenPlay" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                  <image>
+                                    <Image url="http://www.clker.com/cliparts/i/P/7/C/V/X/purple-play-button-md.png" backgroundLoading="true" />
+                                  </image>
+                                </ImageView>
+                                <ImageView fx:id="pauseButton" fitHeight="43.0" fitWidth="43.0" onMouseClicked="#handlePause" onMouseEntered="#lightenPause" onMouseExited="#darkenPause" pickOnBounds="true" preserveRatio="true" visible="false">
+                                  <image>
+                                    <Image url="http://www.clker.com/cliparts/7/o/3/5/n/g/pause-button-blue-hi.png" />
+                                  </image>
+                                </ImageView>
+                              </children>
+                            </StackPane>
+                            <ImageView fx:id="skipButton" fitHeight="43.999977111816406" fitWidth="43.999977111816406" onMouseClicked="#handleSkip" onMouseEntered="#lightenSkip" onMouseExited="#darkenSkip" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                <Image url="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/256/Skip-forward-icon.png" backgroundLoading="true" />
+                              </image>
+                            </ImageView>
+                            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                              <children>
+                                <Slider fx:id="fpsSlider" max="50.0" min="1.0" onMouseReleased="#handleSlideRelease" onScrollFinished="#handleSlideRelease" showTickLabels="false" showTickMarks="false" value="25.0" />
+                                <HBox alignment="CENTER" prefHeight="21.0" prefWidth="100.0" spacing="10.0">
+                                  <children>
+                                    <TextField fx:id="fpsTextField" onAction="#handleSlideEnter" prefHeight="21.0" prefWidth="38.0" text="25" />
+                                    <Label text="fps" />
+                                  </children>
+                                </HBox>
+                              </children>
+                              <padding>
+                                <Insets top="5.0" />
+                              </padding>
+                            </VBox>
+                          </children>
+                        </HBox>
+                      </children>
+                    </VBox>
+                  </children>
+                </VBox>
+              </children>
+            </AnchorPane>
+          </items>
+        </SplitPane>
+        <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+          <children>
+            <Label maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="Left status" HBox.hgrow="ALWAYS">
+              <font>
+                <Font size="11.0" fx:id="x3" />
+              </font>
+              <textFill>
+                <Color blue="0.625" green="0.625" red="0.625" fx:id="x4" />
+              </textFill>
+            </Label>
+            <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+            <Label font="$x3" maxWidth="-1.0" text="Right status" textFill="$x4" HBox.hgrow="NEVER" />
+          </children>
+          <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+          </padding>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</fx:root>

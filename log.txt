@@ -1,0 +1,2297 @@
+commit e7a55cf68b37d9e6e9d0956b8ac2984295641dd4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 23:48:11 2014 -0400
+
+    Somewhat Final...
+
+commit db84286861c99b10a3c4d7ccec13bdfdb88d7c9f
+Merge: ced0fec 3588e0c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 23:45:57 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 3588e0c2963018aa59c347803fe953e8b24fe0c5
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 23:45:00 2014 -0400
+
+    trying
+
+commit ced0fec8acc4393dc6e100f124b989bc026b0a8c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 23:44:38 2014 -0400
+
+    Things!
+
+commit be89af2b84e4ba5b7c1363bdbb577d6ef626e241
+Merge: a5e8a31 6016f6c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:54:13 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit a5e8a3176399e57d8e47cf7f29d52206bbbb876e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:53:59 2014 -0400
+
+    my things are on fire
+
+commit 6016f6c18cfe9af3857b2dfcdcd77815c9c4c847
+Merge: aada143 1e0ea19
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 22:51:02 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit aada143f668ca01cb95a7f58f1fe001ab77a9768
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 22:50:43 2014 -0400
+
+    zoom didn't work :P "buffering" worked
+
+commit 1e0ea19fb1f068bb55a0b261658e089255ed8ea4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:50:02 2014 -0400
+
+    Stuf
+
+commit 53c10dfcdf1a427b2c42517cad7f0ee72c630af0
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:05:56 2014 -0400
+
+    buttons added
+
+commit ffce764fa5e46f37df444b39fa724482c00791d9
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:41:09 2014 -0400
+
+    buttons added
+
+commit ac75f0812210825232abe60052a9147788450092
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:37:11 2014 -0400
+
+    zoom in zoom out button
+
+commit 0f7e5a109f90aff452916eef72f09a144ebf6223
+Merge: 62094f8 27ff53e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:09:27 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 62094f873ad64ed01b51747c0b59de16472a4aa9
+Merge: 3e768e5 ebd9ff5
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:09:03 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/student/Creator.java
+    	assignment6/student/World.java
+
+commit 27ff53ecaa99562da6f3933c285f692cbf7065b0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 21:08:28 2014 -0400
+
+    small change
+
+commit 3e768e5048374bc375c094d5510b6dd129652fef
+Merge: f279ea4 1a1a4c1
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 20:24:25 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit ebd9ff5a301282850eeb8620ac30c6e243597231
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 20:22:53 2014 -0400
+
+    added P.rint statements before all notifications
+
+commit f279ea4fcaac2f75630540068beb2573c6075328
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 19:51:30 2014 -0400
+
+    stuff
+
+commit 1a1a4c1e71a4c3667bb2c9bfaf36f219291c3be1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 19:51:20 2014 -0400
+
+    finished placing the Critter grpahics wise?
+
+commit 2a661c47ab64f188f23f772d28838dcfb2866fb1
+Merge: 08b1355 8dd85c1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 19:19:59 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 08b13551f68391021575f253bc5845ca85142dd0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 19:18:55 2014 -0400
+
+    made Critter and World observable, editing how to update the View
+
+commit 8dd85c11780a92001f3ac7f0301716644a530c35
+Merge: 2c42f1c 0bd2354
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 19:18:32 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 2c42f1c112a52d07dfb3c6a704237fc3ece99886
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 19:17:18 2014 -0400
+
+    hashmapped a thing
+
+commit 0bd23549cd20446668cf7ac6b8a1ee3088e790ab
+Merge: 9d0dbdd 8ebc740
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 16:02:26 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 9d0dbdddb4a66c3e25c33928290f16d34e844cac
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 16:02:01 2014 -0400
+
+    so apparenltly I changed View
+
+commit 8ebc740c1f801a5ec7921ae1a12ae2cb25f6b587
+Merge: fccd017 06b9b4c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 14:28:13 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit fccd017b684b26e18091491c382dd23f0e117c7e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 14:24:57 2014 -0400
+
+    fixed the worl
+
+commit 06b9b4c87dfe9d5425027550c2bd212f5120b38d
+Merge: edd3847 af59201
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 03:26:59 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit edd3847d90cdd773aba90d31173228fa25bcafce
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 03:24:24 2014 -0400
+
+    making animations
+
+commit af59201d080a0f79df9afb45d3d792e784df723c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 03:23:14 2014 -0400
+
+    Fixing stuff
+
+commit 0505b13bd4707c8c43949f78d2c999a2a6078508
+Merge: 80a3798 1ff566e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 02:05:50 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 80a3798d9b0d831805f4338cf050c076c509199c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 02:05:33 2014 -0400
+
+    DAKFJAWKLEF
+
+commit 1ff566e6b667460a95d011708b36bd7788bc7675
+Merge: 4038e97 9d9071c
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 01:57:33 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 4038e97ace422524bfa046019c1da53673e0f61a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 01:57:15 2014 -0400
+
+    modified the view apparently
+
+commit 9d9071c1e4ba47c0ae41c7a16eb614b740cda92b
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 01:56:30 2014 -0400
+
+    i forgot
+
+commit 2798a6f664801e60bfca2b17bdd8d4793654331c
+Merge: 1b0b471 0f3c022
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 01:56:17 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 1b0b4714e235fb9941cd0897676478a3babb202f
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 01:55:23 2014 -0400
+
+    Idk what i did
+
+commit 0f3c022516ff9fd1c94d4cb686343c5149c0c729
+Merge: ecb03ba 4c13480
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 23:41:45 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit ecb03ba6e1b0f15eb4801a0decd4eba5daa6d346
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 23:41:31 2014 -0400
+
+    new rock file
+
+commit 4c13480911b815f5f04a0a4c1377279845367878
+Merge: 63a0694 4c50b63
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 23:34:45 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 63a0694f75b5bbb7a1626a1746874fbf791b67d9
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 23:33:14 2014 -0400
+
+    i did something
+
+commit 210e00ceeb842d6d8f8b20e79b2656d4e153d981
+Merge: 164a5d9 9d430ac
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 22:27:11 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 4c50b63cf475f8f7e9a81353b2c6c9349dc0f611
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 22:27:02 2014 -0400
+
+    Found a stock image of the ladybug. Technically the ladybugs should be
+    showing up, but they aren't. Blah.
+    Rocks are now being drawn!
+    Next two tweaks:
+    1) make ladybugs draw
+    2) finish the rock border around the world.
+
+commit 164a5d98d1acb7bf9af71c0fcbe14873bd8dd70a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 22:25:49 2014 -0400
+
+    Things
+
+commit 9d430ac774e75613df79e95c085ed777a7069db6
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 21:38:36 2014 -0400
+
+    added rock files. Still need to 1) implement drawing Critters based on world
+    2) impl. drawing rocks based on world
+
+commit 2ee05116c2839441910d9f4e793ce5baa9040508
+Merge: b3307d4 e52f4a0
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 21:07:06 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit b3307d47acfb662116cd9551f7ea204e1f3763cd
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 21:04:25 2014 -0400
+
+    pulling
+
+commit e52f4a00f9ecd28fb4c83abf30aa2a34e6061043
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 21:02:15 2014 -0400
+
+    images processed and ready, alpha channels in place, all pngs.
+
+commit 5846f6727e20003488f020df47101b83a1d3e6c4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 20:48:28 2014 -0400
+
+    observer/observable attachments made
+
+commit 84330fccab5e6b53c9552a58c4edb62e7441f143
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 19:47:30 2014 -0400
+
+    stuff
+
+commit f2db0b0f87a89fed34ee69f33067adfe2e90bdd1
+Merge: c3cd84b 9116113
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 19:44:50 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 9116113477e6ac4c47148f01bbf190f4146c6a53
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 19:33:56 2014 -0400
+
+    Tweak #1 and #2 implemented. Now for Critters and Rocks!
+
+commit c3cd84b7a8fc00bf1050658b24a5015392cd07c0
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 19:32:02 2014 -0400
+
+    trying to get hex data
+
+commit 4efaa3a7037210f273ffa99586582fecc1956499
+Merge: 597840c 0554a1a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 13:25:17 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 597840cc767de10e3b6621d30a7d92a610ea2927
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 13:25:00 2014 -0400
+
+    doing more Hex math
+
+commit 0554a1ab9110dc9c6ab7cecc85d6e816e04a968d
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 13:12:57 2014 -0400
+
+    The Info Bar now expands and collapses
+
+commit beee69b2df8ab4aaa8d99d7a2bc432ad77540156
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 12:00:34 2014 -0400
+
+    things
+
+commit a26977c50c472ad623a9e73c1022956a38ff4534
+Merge: 2cce915 3aac88a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 06:17:49 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/Controller.java
+    	assignment6/graphicx/View.java
+
+commit 2cce9158b1c7f75a16f2bd646aee7757ec13e43c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 06:09:30 2014 -0400
+
+    Transparency in the information panel acheived
+
+commit 3aac88aa12a96c3e3312dadd705a039bc9426f81
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 05:51:21 2014 -0400
+
+    Hexagon math is good, just need to 1) cut off outerlying hexes 2) fix
+    cordinate system so that it starts counting from the bottom left
+
+commit 20911a709edc4a0ed21e4e645a443d31495eefd7
+Merge: bc22316 6d8416a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 03:42:00 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/Controller.java
+    	assignment6/graphicx/Main.java
+    	assignment6/graphicx/View.java
+
+commit bc22316d4b66f83b66ea7bf28f2d8593e194ebc0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 03:38:30 2014 -0400
+
+    things
+
+commit 6d8416a54826beaa5d402b3cd23db2d76865a77f
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 03:35:51 2014 -0400
+
+    Connected the hexes to the controller
+
+commit 33ef49f7c46f0facd989b33dfda46acd1b407646
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 02:52:26 2014 -0400
+
+    added pause button.
+
+commit 58d7894db89a3f1cb5606f99c5019979bb689659
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 01:37:06 2014 -0400
+
+    The buttons are completed.
+
+commit f28742469dd75f0de6889fac425d9704c0453478
+Merge: cddb9c2 6774da3
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Wed Apr 23 17:07:39 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/View.java
+
+commit cddb9c2d0a24599655577c4c52d6c872b4e17131
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Wed Apr 23 17:01:40 2014 -0400
+
+    fxml works
+
+commit 6774da32326d391147cb1c8c7f641680f1fa0c1f
+Merge: 869d19b ad36de8
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 23:23:07 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/View.java
+
+commit 869d19b2603c83fc7464e930ddb9bc8d66aeaee7
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 23:21:51 2014 -0400
+
+    random changes
+
+commit ad36de81799ac07006b42744708c01e0dad1268b
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 23:20:35 2014 -0400
+
+    things
+
+commit 7e5f60dd9559d7d5f1f799ff4ccdd6e32da73366
+Merge: d880891 727ef5e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 22:52:39 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/activeUI.fxml
+
+commit d880891f3337e641515c6ad16dc85c52d4bfc664
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 22:32:27 2014 -0400
+
+    i forgot what i just did
+
+commit 727ef5ecaf3ba2b2a5fb6e41103713b06d058b09
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 22:27:55 2014 -0400
+
+    did Math for Hexagons
+
+commit 849a70c762b17f0baaf358cb5909c38bb1ceb91f
+Merge: 0e18a2f 0ce973e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 21:18:35 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/activeUI.fxml
+
+commit 0e18a2fce47344c0d0b3c3230200bcc7eb1738b6
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 21:10:57 2014 -0400
+
+    about to pull
+
+commit 0ce973e039f67c4b5402fda38ecfa0f08c322dd3
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 20:29:01 2014 -0400
+
+    more GUI elements
+
+commit dc8c5d8d7cdbda517a8232b8f9a02609a2fd337d
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 17:01:13 2014 -0400
+
+    fxml is starting to work. got basic functionalities
+
+commit 17a33c090c1922e1a08dc2286b5f518a9ea5c4b8
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 02:03:14 2014 -0400
+
+    Merge Conflicts resolved
+
+commit 8cac097352ac9e0e29aefae112e4c020579d5293
+Merge: ac52cbf cd38b4d
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 02:01:52 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit ac52cbf19827779d1901d6af123ad3243e378cdc
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 02:01:26 2014 -0400
+
+    preparing for the worst
+
+commit cd38b4dc45aca8fd186062f9f31e17d160cca19a
+Merge: 05d2ed8 9c8db19
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 01:43:11 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 05d2ed8a603f6039731a11b6c0015d09abd547fd
+Merge: 36cca60 b85793a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 01:43:03 2014 -0400
+
+    Trying to merge
+
+commit 9c8db19a4ec1b506f57fc7747aa3041bbca633bb
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 01:42:30 2014 -0400
+
+    pushing again
+
+commit 36cca60cc1680cb5a9623d1a310a0c886ea821f0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 01:37:39 2014 -0400
+
+    incorporating results form javaFX scenebuilder into main project
+
+commit b85793a154dc77829fe28b3ec0162b529ccb9a58
+Merge: 4fb5a4d 58985a7
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 01:36:43 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/CWController.java
+
+commit 4fb5a4d2a1efa46ffd89bd14a62cbe06dd410c89
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 01:35:50 2014 -0400
+
+    restructuring
+
+commit 58985a7c9b44a08ed147924b66946b0d3e2c11b8
+Merge: a81b281 5c6d1c8
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 20 21:05:34 2014 -0400
+
+    merging
+
+commit a81b28175a9ab1d9b42db6d85e3612f5580256d6
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 20 21:02:33 2014 -0400
+
+    tried to learn the ways
+
+commit 5c6d1c87526645667ed7519a0fb5e1d6e585c850
+Merge: e93ef71 db4e777
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 20 20:55:31 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/CritterWorld.java
+
+commit e93ef71f7ea681fe9b48446004bace93a8c24cdb
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 20 17:00:27 2014 -0400
+
+    NewWorld and LoadWorld are fully functional
+
+commit db4e7776b7aeaabd84686b319cba0f74a64ed1e7
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 20 14:51:46 2014 -0400
+
+    Edited a tutorial File: It will now always be fullscreen, not resizeable. Now has a background image. aka main menu is kinda implemented. The button will lead to another screen, eventually.
+
+commit 63ae226213c20be1e5d09e6ac4391f09a7698c69
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 18 11:06:20 2014 -0400
+
+    Added Office hour notes, added CritterWorld extends Application class
+    added Overview draft
+
+commit 1e17c6aba9fa8ee063c20ebcea51329ee232215c
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 16 23:42:56 2014 -0400
+
+    rearranging folders yay
+
+commit 838095e775dc5d28b9ae7713f498def8e7307342
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 11 00:04:09 2014 -0400
+
+    overview and other things
+
+commit 8be43eddfb5732f18523afe418f94f8f8220b0c7
+Merge: b36631f c846c05
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 23:08:56 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+
+commit b36631f432371879e5f408f54ce3d929bd0e6488
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 23:07:16 2014 -0400
+
+    tests galore
+
+commit c846c05e814c21a2fa34e6cd6f1589b6b8ccbf35
+Merge: 43a7ef2 2c4d358
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 23:01:36 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/World.class
+    	pants.jar
+
+commit 43a7ef2a221830bcfeb507c916d068eb420b262e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 23:00:49 2014 -0400
+
+    Finishing touches. LETS GOOO
+
+commit 2c4d358a351fcc542cb9cae71f01b56af28f617b
+Merge: 7487ab1 f24d359
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 19:37:32 2014 -0400
+
+    whelp I guess the only conflicts was world.class and the jar file
+    
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/World.class
+    	pants.jar
+
+commit 7487ab161fe1cd4643323836b50c311a51163f9a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 16:19:27 2014 -0400
+
+    fixed file references so we can always find the constants.txt
+
+commit f24d359ffa0de39d52a2c626713584f636171d10
+Merge: 1e4190f 3c5b61f
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 16:18:10 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/Verb.java
+    	a5-src/student/World.class
+    	a5-src/test/WorldTest.java
+    	pants.jar
+
+commit 1e4190f3ceabfc2a386bed297425287e23ca0f02
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 11:53:47 2014 -0400
+
+    Some stuff
+
+commit 3c5b61f95f8eda91ba0a76450b018413b9411f4a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 9 17:49:51 2014 -0400
+
+    Put all .txt files into a5-src based on Reese G's suggestion
+
+commit 1a6a56ff73df744bf8aa8329e395e112032a2154
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 9 02:48:46 2014 -0400
+
+    featuring minor changes on how to handle missing critter files
+    and some testing shenanigans
+
+commit 2150f3697ad34f8b67b6d4534d7496c11e4413cb
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 9 01:57:03 2014 -0400
+
+    :D new secret methods implemented
+    (you can now specify how large your world is mwahahahahaha)
+    actual purpose: for testing and constraining world sizes for more ctrl
+
+commit f0ca4ca0a2d13be32a1e76ecb5da4aff61a85d92
+Merge: 17cb539 c71e020
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Tue Apr 8 23:44:56 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Hex.java
+    	a5-src/student/Verb.java
+    	a5-src/student/World.class
+    	a5-src/student/World.java
+
+commit 17cb539bfd5a2171d5a6adf86b6bd0fcea6d2c26
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Tue Apr 8 23:37:16 2014 -0400
+
+    everything looks better than it did before
+
+commit c71e0209f53f8efa694cded0750ab65be1147072
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 8 23:13:02 2014 -0400
+
+    some refactoring, added critters and worlds, yeah
+
+commit 6ca221a6346f9512296a4a5b0ac80efefce2ff2b
+Author: unknown <CIT-Labs@CIT-PHILLIPS-14.cornell.edu>
+Date:   Mon Apr 7 23:37:54 2014 -0400
+
+    Things are working properly!
+
+commit 3f7703129649f1ed14c2dd33abe5d8518431e398
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 7 11:13:20 2014 -0400
+
+    Organized critter files in a5 folder
+
+commit 7917cca090e4551931d44f36c227623f284dd24a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 6 01:51:15 2014 -0400
+
+    made some more critter files. critter2 is a test for syntatic sugar.
+
+commit e94d388d206fd90e4bff7be4432e356a204fd419
+Merge: 7ba9347 b741eba
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 4 17:40:22 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/World.class
+    	a5-src/student/World.java
+
+commit 7ba93476034af2dab35fd2ff7ed4220727ecd5f2
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 4 17:23:50 2014 -0400
+
+    Functionally completed all the print methods.
+
+commit b741ebaf043abe3a862671ed8dd8df5172363af1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 16:43:56 2014 -0400
+
+    VERBS ARE DONE whoopwhoop
+    now we need to test them more and find all the bugs
+
+commit fdbc5787d33bf1edb25cb158985e799b0d6d2260
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 16:23:41 2014 -0400
+
+    ALL VERBS MINUS 2 DONEEEEE still have serve and tag left, but those are
+    less complicated. We should start making a lot of tests and such.
+
+commit a0ba1dae9a983700ce962d6eca7146367e2c2182
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 13:01:12 2014 -0400
+
+    Species was a bad idea so it's out. Bud is implemented.
+
+commit 9004545066f2a781f32e3f85d801edc684060939
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 10:07:37 2014 -0400
+
+    Implemented Attack. Finishing up the other verbs.
+
+commit b2f200e354df681c78db64268bc9515702996489
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 3 15:40:15 2014 -0400
+
+    Made Verbs look prettier. Implemented Die and some Energy checks.
+    Energy formulas in place.
+
+commit 781247ab03bea62b27fe541618838050e343f3c1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 3 14:44:28 2014 -0400
+
+    World War III against .class
+
+commit dd0c9fe89eef8163f9488b35ba93dbbaa7545f05
+Merge: c3f3bdd d71fb5a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 3 02:36:05 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/World.class
+    	a5-src/student/World.java
+
+commit c3f3bdd6f8ec5e99eea871f1d5ea79c299d2837c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Wed Apr 2 12:36:32 2014 -0400
+
+    Implemented Creator class
+
+commit d71fb5a1f1824af1a3f57fa0a52131a8c714ba0d
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 1 20:53:19 2014 -0400
+
+    Set up framework for step() and how it responds to both
+    Unary and Nullary actions. To do:
+    Attack, Grow, Bud, Mate, Die, Serve, Tag.
+
+commit d15bf6877146770a71b31bc88090f7dfa5582d5e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 1 14:11:44 2014 -0400
+
+    More Verbs done :P Should Die be a verb?
+
+commit e966265fabc4c0377b8c76d0729cc5038e162379
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 1 13:20:04 2014 -0400
+
+    More setters and getters, more Verbs. Critters will turn backwards
+    when they move backwards.
+
+commit 98b56febb58970fcd277af10c749db902ed5c380
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Mar 31 12:35:29 2014 -0400
+
+    Just kidding enums act as final class and they do not extend so I'm
+    going with a single Verb class
+
+commit dc1515380ca4e76fe95626a09d09a08cf48a45d3
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Mar 31 12:13:55 2014 -0400
+
+    Verbs!!! yayayayay
+    The subclasses of verb will handle the Critter actions.
+
+commit f0369a8f1d6db784edf427e9d30380cd79388f0e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 23:14:47 2014 -0400
+
+    Diagrammed AST, started step() and eval(), added some getter
+    methods to AST. Next Goals: make Interpreter Class? to separate
+    the functionality
+
+commit 9a457810070cce1aefb58405124fac278fcbbe03
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 18:47:25 2014 -0400
+
+    more implementation to Critter, undid Observer/Observable design code
+
+commit 1cd235a1e3a4aa2de503bb9a09af407894797714
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 13:17:53 2014 -0400
+
+    small tweaks to Critter
+
+commit 6ab18760914eccbc21503fede117e12453c18dbc
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 13:01:02 2014 -0400
+
+    daily class flushing
+
+commit 48f17cefb4750fea0a313fbe5b2b0f22dce18afb
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 12:58:42 2014 -0400
+
+    Added classes, made some design decisions based on feedback of Overview
+
+commit 53b3414eab89d9d9c2277eb449047ffd5681e4be
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Mar 30 03:26:34 2014 -0400
+
+    Fixed a small bug in PrintHexInfo
+
+commit a083c41b24f5e52b9edf9ee043cd7dbf7257e7d4
+Merge: 45b66e2 5fcae15
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Mar 29 13:41:47 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/World.class
+
+commit 45b66e2b59565864549e37b8627bf509f1098ed7
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Mar 29 01:19:01 2014 -0400
+
+    Critters have full sensing capabilities. Might have bugs because I am
+    programming in Vim right now and not in Eclipse
+
+commit 5fcae15afc2c95a9854c9291e89af17d63852c1e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 19:47:01 2014 -0400
+
+    daily class cleanup
+
+commit f26cf4e68bdd157e814de9e1843c9f1c0274ca90
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Thu Mar 27 01:31:52 2014 -0400
+
+    fixed a bug. waiting on critters
+
+commit 0c05674de366788ad7611631d20c21e7651cee73
+Merge: 7f8c4af c84e533
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Thu Mar 27 01:04:34 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/Hex.class
+    	a5-src/student/World.class
+    	a5-src/test/WorldTest.class
+
+commit 7f8c4afc3f9808898acbea82b66188349ddac9f3
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Thu Mar 27 00:59:59 2014 -0400
+
+    World is entirely implemented. Must test for bugs.
+
+commit c84e533f77dc829084cf6fbebf561c69c282506e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 00:23:48 2014 -0400
+
+    death to .class files please
+
+commit e49754a6454a606805714224df11cacdc9b241fc
+Merge: 4684c74 6f82a4f
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 00:19:44 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    ARG
+    
+    Conflicts:
+    	a5-src/student/Console.java
+
+commit 4684c74d5b8ab5484e59736dc7be6c9253b79340
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 00:13:06 2014 -0400
+
+    read Piazza posts, fixed Tokenizer so it is no longer white-space
+    sensitive, and did some things to Critter.
+
+commit 6f82a4f29cdac700259891e00ad92ff0f15c3658
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Wed Mar 26 23:08:55 2014 -0400
+
+    Print info is fully done. World almost done.
+
+commit 1a7c3216c74372ca2619c3f3d75eaa573497c093
+Author: unknown <CIT-Labs@CIT-PHILLIPS-06.cornell.edu>
+Date:   Wed Mar 26 14:35:27 2014 -0400
+
+    PrintInfo is working perfectly.
+
+commit f43b5746cfff4279f1adf9ac20bf195afa8e7bf3
+Merge: 585cf93 a96494a
+Author: unknown <CIT-Labs@CIT-RPCC-08.cornell.edu>
+Date:   Wed Mar 26 01:51:27 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/ast/Comparison.class
+    	a5-src/student/World.java
+    	a5-src/student/pants.class
+
+commit 585cf93df2a64a2346bd39772235aff1f5f0839a
+Author: unknown <CIT-Labs@CIT-RPCC-08.cornell.edu>
+Date:   Wed Mar 26 01:48:10 2014 -0400
+
+    Added Test Runner, updates to World
+
+commit a96494a070421573d0f4494c6e0c0d9d682ca687
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Mar 25 22:03:16 2014 -0400
+
+    Removed .class files
+
+commit e7909509a437f2d95b97e01f6ff57ff1bbdb26f1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Mar 25 22:00:34 2014 -0400
+
+    Updated .gitignore files, added Console that James just posted on Piazza.
+
+commit 7b1795618f853ab9b21dd905c74195299f80325e
+Author: unknown <CIT-Labs@CIT-PHILLIPS-11.cornell.edu>
+Date:   Tue Mar 25 00:07:56 2014 -0400
+
+    World initialization completed
+
+commit 92cea67fce12fee5c20b9f4414e8d81964df7269
+Author: unknown <CIT-Labs@CIT-PHILLIPS-11.cornell.edu>
+Date:   Sat Mar 22 18:01:21 2014 -0400
+
+    Setting up the project.
+commit d9d35d776b0fcd4c6161c75ea3dd6b2f736b78fd
+Merge: be76634 b7c93be
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 23:13:07 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit be76634f6f83a547e9b7e2de3064c0447063b509
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 23:12:24 2014 -0400
+
+    did like nothing
+
+commit b7c93be48b0be87c82863231970e47dcc91dcafb
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 27 23:11:54 2014 -0400
+
+    YAYAYAYAYA
+
+commit eb8da5b669042482023767beb4bd00a88321ea45
+Merge: 0e553de f36c413
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 21:43:06 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 0e553deb5bda3bd671433ad139e0a7f167ab6053
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 21:42:50 2014 -0400
+
+    ;kjkjkj
+
+commit f36c4132b631bf08a7a06abaef311cd3290404bf
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 27 21:40:49 2014 -0400
+
+    filler for fxml things are there
+
+commit f56d75d50dabaab803f4db39d62f59856138469d
+Merge: 7db4d09 e32e2a6
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 27 21:37:25 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 7db4d0985ed2dff46207b343eb6b7daa121e640a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 27 21:36:32 2014 -0400
+
+    edited Controller for critter actions
+
+commit e32e2a6f0ba8af80f8dd9b69d23eccdaf6869a82
+Merge: bb5b56d 9127b18
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 21:35:04 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/constants.txt
+    	assignment6/graphicx/Controller.java
+    	assignment6/graphicx/View.java
+
+commit bb5b56d9a829129bd5373cc56ae20c2200e99221
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 21:00:05 2014 -0400
+
+    working
+
+commit 9127b184e079e2bc298390c50a5a50e2f9bbc74e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 27 20:58:56 2014 -0400
+
+    hex info is printing in the thing
+
+commit 600e6b94d84d02bbb58ebf3ff4387086c831259a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 20:18:22 2014 -0400
+
+    listener is on the anchor pane
+
+commit 6a8760bdd743ee8fbc447ee3bb722492db76b287
+Merge: 54795f9 e4af0d4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 19:49:00 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 54795f94ad86b06a8328681021ba58ae1ea23d1e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 19:48:43 2014 -0400
+
+    nothing
+
+commit e4af0d46424c868f0b7f6ac9df0742f02fbb60c7
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 27 19:45:36 2014 -0400
+
+    the buffering is somewhat functioning
+
+commit 5e19867717052db9c137116b7519e6a678d54b83
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 15:33:32 2014 -0400
+
+    set a default fps
+
+commit 89c865fe36796d0a32cbafa30a89f88dbab36fcf
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 27 15:31:13 2014 -0400
+
+    re-architected everything
+
+commit 541c337a0a9af39a0bab68f3e9d18a050fecd7f1
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Apr 26 04:59:48 2014 -0400
+
+    the graphics for each step are perfected. animations not there, and play
+    button running into weird errors
+
+commit 4920481624a73a376a4e2488bba9b6dbdbfe6315
+Merge: 816b98d 38db9e6
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Apr 26 00:39:13 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 38db9e68678282960a29e3565d3022eadbcfc229
+Merge: ea91735 e7a55cf
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sat Apr 26 00:38:43 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 816b98df0d7390fdbb106d74646bb177e9dab363
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Apr 26 00:38:34 2014 -0400
+
+    critter movement is on
+
+commit ea917359e181d1d198a07b8c7974f86b81a6b8bf
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sat Apr 26 00:38:14 2014 -0400
+
+    added Overview
+
+commit e7a55cf68b37d9e6e9d0956b8ac2984295641dd4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 23:48:11 2014 -0400
+
+    Somewhat Final...
+
+commit db84286861c99b10a3c4d7ccec13bdfdb88d7c9f
+Merge: ced0fec 3588e0c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 23:45:57 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 3588e0c2963018aa59c347803fe953e8b24fe0c5
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 23:45:00 2014 -0400
+
+    trying
+
+commit ced0fec8acc4393dc6e100f124b989bc026b0a8c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 23:44:38 2014 -0400
+
+    Things!
+
+commit be89af2b84e4ba5b7c1363bdbb577d6ef626e241
+Merge: a5e8a31 6016f6c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:54:13 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit a5e8a3176399e57d8e47cf7f29d52206bbbb876e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:53:59 2014 -0400
+
+    my things are on fire
+
+commit 6016f6c18cfe9af3857b2dfcdcd77815c9c4c847
+Merge: aada143 1e0ea19
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 22:51:02 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit aada143f668ca01cb95a7f58f1fe001ab77a9768
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 22:50:43 2014 -0400
+
+    zoom didn't work :P "buffering" worked
+
+commit 1e0ea19fb1f068bb55a0b261658e089255ed8ea4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:50:02 2014 -0400
+
+    Stuf
+
+commit 53c10dfcdf1a427b2c42517cad7f0ee72c630af0
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 22:05:56 2014 -0400
+
+    buttons added
+
+commit ffce764fa5e46f37df444b39fa724482c00791d9
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:41:09 2014 -0400
+
+    buttons added
+
+commit ac75f0812210825232abe60052a9147788450092
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:37:11 2014 -0400
+
+    zoom in zoom out button
+
+commit 0f7e5a109f90aff452916eef72f09a144ebf6223
+Merge: 62094f8 27ff53e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:09:27 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 62094f873ad64ed01b51747c0b59de16472a4aa9
+Merge: 3e768e5 ebd9ff5
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 21:09:03 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/student/Creator.java
+    	assignment6/student/World.java
+
+commit 27ff53ecaa99562da6f3933c285f692cbf7065b0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 21:08:28 2014 -0400
+
+    small change
+
+commit 3e768e5048374bc375c094d5510b6dd129652fef
+Merge: f279ea4 1a1a4c1
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 20:24:25 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit ebd9ff5a301282850eeb8620ac30c6e243597231
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 20:22:53 2014 -0400
+
+    added P.rint statements before all notifications
+
+commit f279ea4fcaac2f75630540068beb2573c6075328
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 19:51:30 2014 -0400
+
+    stuff
+
+commit 1a1a4c1e71a4c3667bb2c9bfaf36f219291c3be1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 19:51:20 2014 -0400
+
+    finished placing the Critter grpahics wise?
+
+commit 2a661c47ab64f188f23f772d28838dcfb2866fb1
+Merge: 08b1355 8dd85c1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 19:19:59 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 08b13551f68391021575f253bc5845ca85142dd0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 19:18:55 2014 -0400
+
+    made Critter and World observable, editing how to update the View
+
+commit 8dd85c11780a92001f3ac7f0301716644a530c35
+Merge: 2c42f1c 0bd2354
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 19:18:32 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 2c42f1c112a52d07dfb3c6a704237fc3ece99886
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 19:17:18 2014 -0400
+
+    hashmapped a thing
+
+commit 0bd23549cd20446668cf7ac6b8a1ee3088e790ab
+Merge: 9d0dbdd 8ebc740
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 16:02:26 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 9d0dbdddb4a66c3e25c33928290f16d34e844cac
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 16:02:01 2014 -0400
+
+    so apparenltly I changed View
+
+commit 8ebc740c1f801a5ec7921ae1a12ae2cb25f6b587
+Merge: fccd017 06b9b4c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 14:28:13 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit fccd017b684b26e18091491c382dd23f0e117c7e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 14:24:57 2014 -0400
+
+    fixed the worl
+
+commit 06b9b4c87dfe9d5425027550c2bd212f5120b38d
+Merge: edd3847 af59201
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 03:26:59 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit edd3847d90cdd773aba90d31173228fa25bcafce
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 03:24:24 2014 -0400
+
+    making animations
+
+commit af59201d080a0f79df9afb45d3d792e784df723c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 03:23:14 2014 -0400
+
+    Fixing stuff
+
+commit 0505b13bd4707c8c43949f78d2c999a2a6078508
+Merge: 80a3798 1ff566e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 02:05:50 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 80a3798d9b0d831805f4338cf050c076c509199c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 02:05:33 2014 -0400
+
+    DAKFJAWKLEF
+
+commit 1ff566e6b667460a95d011708b36bd7788bc7675
+Merge: 4038e97 9d9071c
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 01:57:33 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 4038e97ace422524bfa046019c1da53673e0f61a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 25 01:57:15 2014 -0400
+
+    modified the view apparently
+
+commit 9d9071c1e4ba47c0ae41c7a16eb614b740cda92b
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 01:56:30 2014 -0400
+
+    i forgot
+
+commit 2798a6f664801e60bfca2b17bdd8d4793654331c
+Merge: 1b0b471 0f3c022
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 01:56:17 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 1b0b4714e235fb9941cd0897676478a3babb202f
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 25 01:55:23 2014 -0400
+
+    Idk what i did
+
+commit 0f3c022516ff9fd1c94d4cb686343c5149c0c729
+Merge: ecb03ba 4c13480
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 23:41:45 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit ecb03ba6e1b0f15eb4801a0decd4eba5daa6d346
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 23:41:31 2014 -0400
+
+    new rock file
+
+commit 4c13480911b815f5f04a0a4c1377279845367878
+Merge: 63a0694 4c50b63
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 23:34:45 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 63a0694f75b5bbb7a1626a1746874fbf791b67d9
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 23:33:14 2014 -0400
+
+    i did something
+
+commit 210e00ceeb842d6d8f8b20e79b2656d4e153d981
+Merge: 164a5d9 9d430ac
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 22:27:11 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit 4c50b63cf475f8f7e9a81353b2c6c9349dc0f611
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 22:27:02 2014 -0400
+
+    Found a stock image of the ladybug. Technically the ladybugs should be
+    showing up, but they aren't. Blah.
+    Rocks are now being drawn!
+    Next two tweaks:
+    1) make ladybugs draw
+    2) finish the rock border around the world.
+
+commit 164a5d98d1acb7bf9af71c0fcbe14873bd8dd70a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 22:25:49 2014 -0400
+
+    Things
+
+commit 9d430ac774e75613df79e95c085ed777a7069db6
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 21:38:36 2014 -0400
+
+    added rock files. Still need to 1) implement drawing Critters based on world
+    2) impl. drawing rocks based on world
+
+commit 2ee05116c2839441910d9f4e793ce5baa9040508
+Merge: b3307d4 e52f4a0
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 21:07:06 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/View.java
+
+commit b3307d47acfb662116cd9551f7ea204e1f3763cd
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 21:04:25 2014 -0400
+
+    pulling
+
+commit e52f4a00f9ecd28fb4c83abf30aa2a34e6061043
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 21:02:15 2014 -0400
+
+    images processed and ready, alpha channels in place, all pngs.
+
+commit 5846f6727e20003488f020df47101b83a1d3e6c4
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 20:48:28 2014 -0400
+
+    observer/observable attachments made
+
+commit 84330fccab5e6b53c9552a58c4edb62e7441f143
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 19:47:30 2014 -0400
+
+    stuff
+
+commit f2db0b0f87a89fed34ee69f33067adfe2e90bdd1
+Merge: c3cd84b 9116113
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 19:44:50 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit 9116113477e6ac4c47148f01bbf190f4146c6a53
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 19:33:56 2014 -0400
+
+    Tweak #1 and #2 implemented. Now for Critters and Rocks!
+
+commit c3cd84b7a8fc00bf1050658b24a5015392cd07c0
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 19:32:02 2014 -0400
+
+    trying to get hex data
+
+commit 4efaa3a7037210f273ffa99586582fecc1956499
+Merge: 597840c 0554a1a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 13:25:17 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 597840cc767de10e3b6621d30a7d92a610ea2927
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 13:25:00 2014 -0400
+
+    doing more Hex math
+
+commit 0554a1ab9110dc9c6ab7cecc85d6e816e04a968d
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 13:12:57 2014 -0400
+
+    The Info Bar now expands and collapses
+
+commit beee69b2df8ab4aaa8d99d7a2bc432ad77540156
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 12:00:34 2014 -0400
+
+    things
+
+commit a26977c50c472ad623a9e73c1022956a38ff4534
+Merge: 2cce915 3aac88a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 06:17:49 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/Controller.java
+    	assignment6/graphicx/View.java
+
+commit 2cce9158b1c7f75a16f2bd646aee7757ec13e43c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 06:09:30 2014 -0400
+
+    Transparency in the information panel acheived
+
+commit 3aac88aa12a96c3e3312dadd705a039bc9426f81
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 05:51:21 2014 -0400
+
+    Hexagon math is good, just need to 1) cut off outerlying hexes 2) fix
+    cordinate system so that it starts counting from the bottom left
+
+commit 20911a709edc4a0ed21e4e645a443d31495eefd7
+Merge: bc22316 6d8416a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 03:42:00 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment6/graphicx/Controller.java
+    	assignment6/graphicx/Main.java
+    	assignment6/graphicx/View.java
+
+commit bc22316d4b66f83b66ea7bf28f2d8593e194ebc0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 24 03:38:30 2014 -0400
+
+    things
+
+commit 6d8416a54826beaa5d402b3cd23db2d76865a77f
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 03:35:51 2014 -0400
+
+    Connected the hexes to the controller
+
+commit 33ef49f7c46f0facd989b33dfda46acd1b407646
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 02:52:26 2014 -0400
+
+    added pause button.
+
+commit 58d7894db89a3f1cb5606f99c5019979bb689659
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 24 01:37:06 2014 -0400
+
+    The buttons are completed.
+
+commit f28742469dd75f0de6889fac425d9704c0453478
+Merge: cddb9c2 6774da3
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Wed Apr 23 17:07:39 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/View.java
+
+commit cddb9c2d0a24599655577c4c52d6c872b4e17131
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Wed Apr 23 17:01:40 2014 -0400
+
+    fxml works
+
+commit 6774da32326d391147cb1c8c7f641680f1fa0c1f
+Merge: 869d19b ad36de8
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 23:23:07 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/View.java
+
+commit 869d19b2603c83fc7464e930ddb9bc8d66aeaee7
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 23:21:51 2014 -0400
+
+    random changes
+
+commit ad36de81799ac07006b42744708c01e0dad1268b
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 23:20:35 2014 -0400
+
+    things
+
+commit 7e5f60dd9559d7d5f1f799ff4ccdd6e32da73366
+Merge: d880891 727ef5e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 22:52:39 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/activeUI.fxml
+
+commit d880891f3337e641515c6ad16dc85c52d4bfc664
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 22:32:27 2014 -0400
+
+    i forgot what i just did
+
+commit 727ef5ecaf3ba2b2a5fb6e41103713b06d058b09
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 22:27:55 2014 -0400
+
+    did Math for Hexagons
+
+commit 849a70c762b17f0baaf358cb5909c38bb1ceb91f
+Merge: 0e18a2f 0ce973e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 21:18:35 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/activeUI.fxml
+
+commit 0e18a2fce47344c0d0b3c3230200bcc7eb1738b6
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 21:10:57 2014 -0400
+
+    about to pull
+
+commit 0ce973e039f67c4b5402fda38ecfa0f08c322dd3
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 20:29:01 2014 -0400
+
+    more GUI elements
+
+commit dc8c5d8d7cdbda517a8232b8f9a02609a2fd337d
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 17:01:13 2014 -0400
+
+    fxml is starting to work. got basic functionalities
+
+commit 17a33c090c1922e1a08dc2286b5f518a9ea5c4b8
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 02:03:14 2014 -0400
+
+    Merge Conflicts resolved
+
+commit 8cac097352ac9e0e29aefae112e4c020579d5293
+Merge: ac52cbf cd38b4d
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 02:01:52 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+
+commit ac52cbf19827779d1901d6af123ad3243e378cdc
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 02:01:26 2014 -0400
+
+    preparing for the worst
+
+commit cd38b4dc45aca8fd186062f9f31e17d160cca19a
+Merge: 05d2ed8 9c8db19
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 01:43:11 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+
+commit 05d2ed8a603f6039731a11b6c0015d09abd547fd
+Merge: 36cca60 b85793a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 01:43:03 2014 -0400
+
+    Trying to merge
+
+commit 9c8db19a4ec1b506f57fc7747aa3041bbca633bb
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 01:42:30 2014 -0400
+
+    pushing again
+
+commit 36cca60cc1680cb5a9623d1a310a0c886ea821f0
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 21 01:37:39 2014 -0400
+
+    incorporating results form javaFX scenebuilder into main project
+
+commit b85793a154dc77829fe28b3ec0162b529ccb9a58
+Merge: 4fb5a4d 58985a7
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 01:36:43 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/CWController.java
+
+commit 4fb5a4d2a1efa46ffd89bd14a62cbe06dd410c89
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Mon Apr 21 01:35:50 2014 -0400
+
+    restructuring
+
+commit 58985a7c9b44a08ed147924b66946b0d3e2c11b8
+Merge: a81b281 5c6d1c8
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 20 21:05:34 2014 -0400
+
+    merging
+
+commit a81b28175a9ab1d9b42db6d85e3612f5580256d6
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 20 21:02:33 2014 -0400
+
+    tried to learn the ways
+
+commit 5c6d1c87526645667ed7519a0fb5e1d6e585c850
+Merge: e93ef71 db4e777
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 20 20:55:31 2014 -0400
+
+    Merge branch 'master' of http://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	assignment 6/a5-src/graphicx/CritterWorld.java
+
+commit e93ef71f7ea681fe9b48446004bace93a8c24cdb
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Apr 20 17:00:27 2014 -0400
+
+    NewWorld and LoadWorld are fully functional
+
+commit db4e7776b7aeaabd84686b319cba0f74a64ed1e7
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 20 14:51:46 2014 -0400
+
+    Edited a tutorial File: It will now always be fullscreen, not resizeable. Now has a background image. aka main menu is kinda implemented. The button will lead to another screen, eventually.
+
+commit 63ae226213c20be1e5d09e6ac4391f09a7698c69
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 18 11:06:20 2014 -0400
+
+    Added Office hour notes, added CritterWorld extends Application class
+    added Overview draft
+
+commit 1e17c6aba9fa8ee063c20ebcea51329ee232215c
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 16 23:42:56 2014 -0400
+
+    rearranging folders yay
+
+commit 838095e775dc5d28b9ae7713f498def8e7307342
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 11 00:04:09 2014 -0400
+
+    overview and other things
+
+commit 8be43eddfb5732f18523afe418f94f8f8220b0c7
+Merge: b36631f c846c05
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 23:08:56 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+
+commit b36631f432371879e5f408f54ce3d929bd0e6488
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 23:07:16 2014 -0400
+
+    tests galore
+
+commit c846c05e814c21a2fa34e6cd6f1589b6b8ccbf35
+Merge: 43a7ef2 2c4d358
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 23:01:36 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/World.class
+    	pants.jar
+
+commit 43a7ef2a221830bcfeb507c916d068eb420b262e
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 23:00:49 2014 -0400
+
+    Finishing touches. LETS GOOO
+
+commit 2c4d358a351fcc542cb9cae71f01b56af28f617b
+Merge: 7487ab1 f24d359
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 19:37:32 2014 -0400
+
+    whelp I guess the only conflicts was world.class and the jar file
+    
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/World.class
+    	pants.jar
+
+commit 7487ab161fe1cd4643323836b50c311a51163f9a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 10 16:19:27 2014 -0400
+
+    fixed file references so we can always find the constants.txt
+
+commit f24d359ffa0de39d52a2c626713584f636171d10
+Merge: 1e4190f 3c5b61f
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 16:18:10 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/Verb.java
+    	a5-src/student/World.class
+    	a5-src/test/WorldTest.java
+    	pants.jar
+
+commit 1e4190f3ceabfc2a386bed297425287e23ca0f02
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 10 11:53:47 2014 -0400
+
+    Some stuff
+
+commit 3c5b61f95f8eda91ba0a76450b018413b9411f4a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 9 17:49:51 2014 -0400
+
+    Put all .txt files into a5-src based on Reese G's suggestion
+
+commit 1a6a56ff73df744bf8aa8329e395e112032a2154
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 9 02:48:46 2014 -0400
+
+    featuring minor changes on how to handle missing critter files
+    and some testing shenanigans
+
+commit 2150f3697ad34f8b67b6d4534d7496c11e4413cb
+Author: apokellypse <kly24@cornell.edu>
+Date:   Wed Apr 9 01:57:03 2014 -0400
+
+    :D new secret methods implemented
+    (you can now specify how large your world is mwahahahahaha)
+    actual purpose: for testing and constraining world sizes for more ctrl
+
+commit f0ca4ca0a2d13be32a1e76ecb5da4aff61a85d92
+Merge: 17cb539 c71e020
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Tue Apr 8 23:44:56 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Hex.java
+    	a5-src/student/Verb.java
+    	a5-src/student/World.class
+    	a5-src/student/World.java
+
+commit 17cb539bfd5a2171d5a6adf86b6bd0fcea6d2c26
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Tue Apr 8 23:37:16 2014 -0400
+
+    everything looks better than it did before
+
+commit c71e0209f53f8efa694cded0750ab65be1147072
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 8 23:13:02 2014 -0400
+
+    some refactoring, added critters and worlds, yeah
+
+commit 6ca221a6346f9512296a4a5b0ac80efefce2ff2b
+Author: unknown <CIT-Labs@CIT-PHILLIPS-14.cornell.edu>
+Date:   Mon Apr 7 23:37:54 2014 -0400
+
+    Things are working properly!
+
+commit 3f7703129649f1ed14c2dd33abe5d8518431e398
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Apr 7 11:13:20 2014 -0400
+
+    Organized critter files in a5 folder
+
+commit 7917cca090e4551931d44f36c227623f284dd24a
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Apr 6 01:51:15 2014 -0400
+
+    made some more critter files. critter2 is a test for syntatic sugar.
+
+commit e94d388d206fd90e4bff7be4432e356a204fd419
+Merge: 7ba9347 b741eba
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 4 17:40:22 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/World.class
+    	a5-src/student/World.java
+
+commit 7ba93476034af2dab35fd2ff7ed4220727ecd5f2
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Fri Apr 4 17:23:50 2014 -0400
+
+    Functionally completed all the print methods.
+
+commit b741ebaf043abe3a862671ed8dd8df5172363af1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 16:43:56 2014 -0400
+
+    VERBS ARE DONE whoopwhoop
+    now we need to test them more and find all the bugs
+
+commit fdbc5787d33bf1edb25cb158985e799b0d6d2260
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 16:23:41 2014 -0400
+
+    ALL VERBS MINUS 2 DONEEEEE still have serve and tag left, but those are
+    less complicated. We should start making a lot of tests and such.
+
+commit a0ba1dae9a983700ce962d6eca7146367e2c2182
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 13:01:12 2014 -0400
+
+    Species was a bad idea so it's out. Bud is implemented.
+
+commit 9004545066f2a781f32e3f85d801edc684060939
+Author: apokellypse <kly24@cornell.edu>
+Date:   Fri Apr 4 10:07:37 2014 -0400
+
+    Implemented Attack. Finishing up the other verbs.
+
+commit b2f200e354df681c78db64268bc9515702996489
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 3 15:40:15 2014 -0400
+
+    Made Verbs look prettier. Implemented Die and some Energy checks.
+    Energy formulas in place.
+
+commit 781247ab03bea62b27fe541618838050e343f3c1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Apr 3 14:44:28 2014 -0400
+
+    World War III against .class
+
+commit dd0c9fe89eef8163f9488b35ba93dbbaa7545f05
+Merge: c3f3bdd d71fb5a
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Thu Apr 3 02:36:05 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/World.class
+    	a5-src/student/World.java
+
+commit c3f3bdd6f8ec5e99eea871f1d5ea79c299d2837c
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Wed Apr 2 12:36:32 2014 -0400
+
+    Implemented Creator class
+
+commit d71fb5a1f1824af1a3f57fa0a52131a8c714ba0d
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 1 20:53:19 2014 -0400
+
+    Set up framework for step() and how it responds to both
+    Unary and Nullary actions. To do:
+    Attack, Grow, Bud, Mate, Die, Serve, Tag.
+
+commit d15bf6877146770a71b31bc88090f7dfa5582d5e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 1 14:11:44 2014 -0400
+
+    More Verbs done :P Should Die be a verb?
+
+commit e966265fabc4c0377b8c76d0729cc5038e162379
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Apr 1 13:20:04 2014 -0400
+
+    More setters and getters, more Verbs. Critters will turn backwards
+    when they move backwards.
+
+commit 98b56febb58970fcd277af10c749db902ed5c380
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Mar 31 12:35:29 2014 -0400
+
+    Just kidding enums act as final class and they do not extend so I'm
+    going with a single Verb class
+
+commit dc1515380ca4e76fe95626a09d09a08cf48a45d3
+Author: apokellypse <kly24@cornell.edu>
+Date:   Mon Mar 31 12:13:55 2014 -0400
+
+    Verbs!!! yayayayay
+    The subclasses of verb will handle the Critter actions.
+
+commit f0369a8f1d6db784edf427e9d30380cd79388f0e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 23:14:47 2014 -0400
+
+    Diagrammed AST, started step() and eval(), added some getter
+    methods to AST. Next Goals: make Interpreter Class? to separate
+    the functionality
+
+commit 9a457810070cce1aefb58405124fac278fcbbe03
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 18:47:25 2014 -0400
+
+    more implementation to Critter, undid Observer/Observable design code
+
+commit 1cd235a1e3a4aa2de503bb9a09af407894797714
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 13:17:53 2014 -0400
+
+    small tweaks to Critter
+
+commit 6ab18760914eccbc21503fede117e12453c18dbc
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 13:01:02 2014 -0400
+
+    daily class flushing
+
+commit 48f17cefb4750fea0a313fbe5b2b0f22dce18afb
+Author: apokellypse <kly24@cornell.edu>
+Date:   Sun Mar 30 12:58:42 2014 -0400
+
+    Added classes, made some design decisions based on feedback of Overview
+
+commit 53b3414eab89d9d9c2277eb449047ffd5681e4be
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sun Mar 30 03:26:34 2014 -0400
+
+    Fixed a small bug in PrintHexInfo
+
+commit a083c41b24f5e52b9edf9ee043cd7dbf7257e7d4
+Merge: 45b66e2 5fcae15
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Mar 29 13:41:47 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/World.class
+
+commit 45b66e2b59565864549e37b8627bf509f1098ed7
+Author: aWarmWalrus <aWarmWalrus@gmail.com>
+Date:   Sat Mar 29 01:19:01 2014 -0400
+
+    Critters have full sensing capabilities. Might have bugs because I am
+    programming in Vim right now and not in Eclipse
+
+commit 5fcae15afc2c95a9854c9291e89af17d63852c1e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 19:47:01 2014 -0400
+
+    daily class cleanup
+
+commit f26cf4e68bdd157e814de9e1843c9f1c0274ca90
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Thu Mar 27 01:31:52 2014 -0400
+
+    fixed a bug. waiting on critters
+
+commit 0c05674de366788ad7611631d20c21e7651cee73
+Merge: 7f8c4af c84e533
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Thu Mar 27 01:04:34 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/student/Critter.class
+    	a5-src/student/Critter.java
+    	a5-src/student/Hex.class
+    	a5-src/student/World.class
+    	a5-src/test/WorldTest.class
+
+commit 7f8c4afc3f9808898acbea82b66188349ddac9f3
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Thu Mar 27 00:59:59 2014 -0400
+
+    World is entirely implemented. Must test for bugs.
+
+commit c84e533f77dc829084cf6fbebf561c69c282506e
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 00:23:48 2014 -0400
+
+    death to .class files please
+
+commit e49754a6454a606805714224df11cacdc9b241fc
+Merge: 4684c74 6f82a4f
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 00:19:44 2014 -0400
+
+    Merge branch 'master' of https://github.com/apokellypse/Eugenics
+    ARG
+    
+    Conflicts:
+    	a5-src/student/Console.java
+
+commit 4684c74d5b8ab5484e59736dc7be6c9253b79340
+Author: apokellypse <kly24@cornell.edu>
+Date:   Thu Mar 27 00:13:06 2014 -0400
+
+    read Piazza posts, fixed Tokenizer so it is no longer white-space
+    sensitive, and did some things to Critter.
+
+commit 6f82a4f29cdac700259891e00ad92ff0f15c3658
+Author: unknown <CIT-Labs@CIT-RPCC-20.cornell.edu>
+Date:   Wed Mar 26 23:08:55 2014 -0400
+
+    Print info is fully done. World almost done.
+
+commit 1a7c3216c74372ca2619c3f3d75eaa573497c093
+Author: unknown <CIT-Labs@CIT-PHILLIPS-06.cornell.edu>
+Date:   Wed Mar 26 14:35:27 2014 -0400
+
+    PrintInfo is working perfectly.
+
+commit f43b5746cfff4279f1adf9ac20bf195afa8e7bf3
+Merge: 585cf93 a96494a
+Author: unknown <CIT-Labs@CIT-RPCC-08.cornell.edu>
+Date:   Wed Mar 26 01:51:27 2014 -0400
+
+    Merge branch 'master' of https://www.github.com/apokellypse/Eugenics
+    
+    Conflicts:
+    	a5-src/ast/Comparison.class
+    	a5-src/student/World.java
+    	a5-src/student/pants.class
+
+commit 585cf93df2a64a2346bd39772235aff1f5f0839a
+Author: unknown <CIT-Labs@CIT-RPCC-08.cornell.edu>
+Date:   Wed Mar 26 01:48:10 2014 -0400
+
+    Added Test Runner, updates to World
+
+commit a96494a070421573d0f4494c6e0c0d9d682ca687
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Mar 25 22:03:16 2014 -0400
+
+    Removed .class files
+
+commit e7909509a437f2d95b97e01f6ff57ff1bbdb26f1
+Author: apokellypse <kly24@cornell.edu>
+Date:   Tue Mar 25 22:00:34 2014 -0400
+
+    Updated .gitignore files, added Console that James just posted on Piazza.
+
+commit 7b1795618f853ab9b21dd905c74195299f80325e
+Author: unknown <CIT-Labs@CIT-PHILLIPS-11.cornell.edu>
+Date:   Tue Mar 25 00:07:56 2014 -0400
+
+    World initialization completed
+
+commit 92cea67fce12fee5c20b9f4414e8d81964df7269
+Author: unknown <CIT-Labs@CIT-PHILLIPS-11.cornell.edu>
+Date:   Sat Mar 22 18:01:21 2014 -0400
+
+    Setting up the project.

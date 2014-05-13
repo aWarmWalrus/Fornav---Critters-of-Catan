@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root type="javafx.scene.layout.AnchorPane" id="AnchorPane" fx:id="stageAnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="900.0" visible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <StackPane prefHeight="597.0" prefWidth="899.0" VBox.margin="$x4" VBox.vgrow="ALWAYS">
+          <children>
+            <ScrollPane fx:id="viewScrollPane" onMouseMoved="#transparencyOff" onMousePressed="#handleMousePressed" onMouseReleased="#handleMouseReleased" pannable="true" prefHeight="-1.0" prefWidth="-1.0">
+              <content>
+                <AnchorPane id="Content" fx:id="theView" minHeight="-1.0" minWidth="-1.0" onMouseDragged="#handleMouseDragging" prefHeight="576.0" prefWidth="895.0" />
+              </content>
+            </ScrollPane>
+            <StackPane id="playPause" fx:id="playPause2" disable="true" maxHeight="43.0" maxWidth="43.0" minHeight="34.0" minWidth="37.0" prefHeight="43.0" prefWidth="79.0" visible="false" StackPane.alignment="BOTTOM_RIGHT">
+              <children>
+                <ImageView id="playButton" fx:id="playButton2" disable="true" fitHeight="43.0" fitWidth="40.0" onMouseClicked="#handlePlay" onMouseEntered="#lightenPlay" onMouseExited="#darkenPlay" opacity="0.5" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                  <image>
+                    <Image url="http://www.clker.com/cliparts/i/P/7/C/V/X/purple-play-button-md.png" backgroundLoading="false" />
+                  </image>
+                </ImageView>
+                <ImageView id="pauseButton" fx:id="pauseButton2" fitHeight="43.0" fitWidth="43.0" onMouseClicked="#handlePause" onMouseEntered="#lightenPause" onMouseExited="#darkenPause" pickOnBounds="true" preserveRatio="true" visible="false">
+                  <image>
+                    <Image url="http://www.clker.com/cliparts/7/o/3/5/n/g/pause-button-blue-hi.png" />
+                  </image>
+                </ImageView>
+              </children>
+              <StackPane.margin>
+                <Insets bottom="100.0" right="50.0" />
+              </StackPane.margin>
+            </StackPane>
+            <ImageView id="skipButton" fx:id="skipButton2" disable="true" fitHeight="43.999977111816406" fitWidth="43.999977111816406" onMouseClicked="#handleSkip" onMouseEntered="#lightenSkip" onMouseExited="#darkenSkip" opacity="0.5" pickOnBounds="true" preserveRatio="true" visible="false" StackPane.alignment="BOTTOM_RIGHT">
+              <image>
+                <Image url="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/256/Skip-forward-icon.png" backgroundLoading="false" />
+              </image>
+              <StackPane.margin>
+                <Insets bottom="50.0" right="50.0" />
+              </StackPane.margin>
+            </ImageView>
+            <SplitPane fx:id="bigHoncho" dividerPositions="0.7154308617234469" focusTraversable="true" onMouseMoved="#transparencyOn" prefHeight="671.0" prefWidth="1017.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;">
+              <items>
+                <Pane mouseTransparent="true" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;" visible="false" />
+                <AnchorPane id="information" fx:id="controlPanel" maxWidth="281.0" minWidth="280.0" opacity="1.0" style="-fx-background-color: rgba(0, 100, 100, .8);&#10;">
+                  <children>
+                    <TabPane prefHeight="576.0" prefWidth="280.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <tabs>
+                        <Tab text="Home">
+                          <content>
+                            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;">
+                              <children>
+                                <VBox alignment="BOTTOM_LEFT" prefHeight="517.0" prefWidth="241.0" spacing="10.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+                                  <children>
+                                    <Label fx:id="mainLabel" alignment="CENTER" style="&#10;" text="Hex Details" textAlignment="CENTER" wrapText="false">
+                                      <font>
+                                        <Font name="Imprint MT Shadow" size="23.0" />
+                                      </font>
+                                      <textFill>
+                                        <Color blue="0.000" green="0.960" red="1.000" fx:id="x1" />
+                                      </textFill>
+                                    </Label>
+                                    <ScrollPane hbarPolicy="NEVER" pannable="true" prefHeight="283.0" prefWidth="241.0" VBox.vgrow="ALWAYS">
+                                      <content>
+                                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="681.0" prefWidth="237.0">
+                                          <children>
+                                            <Label id="load" fx:id="hexInfo" alignment="TOP_LEFT" contentDisplay="TOP" prefHeight="685.0" prefWidth="244.0" text="Welcome to &#10;Critter World : Ladybugs of Catan!&#10;&#10;To get started, you're going to need to load a World. So go ahead, click on the Dock tab. If you've got a world file already, you can choose a file by clicking Load. Otherwise, you can get a random world by simply pressing New." wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="0.0">
+                                              <font>
+                                                <Font name="Estrangelo Edessa" size="15.0" />
+                                              </font>
+                                            </Label>
+                                          </children>
+                                        </AnchorPane>
+                                      </content>
+                                    </ScrollPane>
+                                    <HBox prefHeight="100.0" prefWidth="241.0" spacing="20.0">
+                                      <children>
+                                        <GridPane maxHeight="100.0" maxWidth="100.0" prefWidth="97.0">
+                                          <children>
+                                            <Button fx:id="forwardButton" disable="true" maxHeight="33.0" maxWidth="33.0" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" onAction="#handleForward" prefHeight="33.0" prefWidth="33.0" text="" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                                            <Button id="leftButon" fx:id="rightButton" disable="true" maxHeight="33.0" maxWidth="33.0" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" onAction="#handleRight" prefHeight="33.0" prefWidth="33.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                            <Button fx:id="backwardButton" disable="true" maxHeight="33.0" maxWidth="33.0" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" onAction="#handleBackward" prefHeight="33.0" prefWidth="33.0" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                            <Button fx:id="leftButton" disable="true" maxHeight="33.0" maxWidth="33.0" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" onAction="#handleLeft" prefHeight="33.0" prefWidth="33.0" text="" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                          </children>
+                                          <columnConstraints>
+                                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                          </columnConstraints>
+                                          <rowConstraints>
+                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          </rowConstraints>
+                                        </GridPane>
+                                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="110.0">
+                                          <children>
+                                            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0">
+                                              <children>
+                                                <Button fx:id="serveButton" disable="true" mnemonicParsing="false" onAction="#handleServe" text="Serve" />
+                                                <Button fx:id="tagButton" disable="true" mnemonicParsing="false" onAction="#handleTag" text="Tag" />
+                                                <Button fx:id="growButton" disable="true" mnemonicParsing="false" onAction="#handleGrow" text="Grow" />
+                                                <Button fx:id="budButton" disable="true" mnemonicParsing="false" onAction="#handleBud" text="Bud" />
+                                              </children>
+                                            </VBox>
+                                            <VBox disable="false" prefHeight="200.0" prefWidth="100.0">
+                                              <children>
+                                                <Button fx:id="waitButton" disable="true" mnemonicParsing="false" onAction="#handleWait" text="Wait" />
+                                                <Button fx:id="eatButton" disable="true" mnemonicParsing="false" onAction="#handleEat" text="Eat" />
+                                                <Button fx:id="mateButton" disable="true" mnemonicParsing="false" onAction="#handleMate" text="Mate" />
+                                                <Button fx:id="attackButton" disable="true" mnemonicParsing="false" onAction="#handleAttack" text="Attack" />
+                                              </children>
+                                            </VBox>
+                                          </children>
+                                          <HBox.margin>
+                                            <Insets fx:id="x4" />
+                                          </HBox.margin>
+                                        </HBox>
+                                      </children>
+                                    </HBox>
+                                    <HBox alignment="TOP_CENTER" prefHeight="53.0" prefWidth="247.0" spacing="20.0">
+                                      <children>
+                                        <StackPane id="playPause" fx:id="playPause1" maxHeight="43.0" minHeight="34.0" minWidth="37.0" prefHeight="43.0" prefWidth="43.0">
+                                          <children>
+                                            <ImageView id="playButton" fx:id="playButton1" disable="true" fitHeight="43.0" fitWidth="40.0" onMouseClicked="#handlePlay" onMouseEntered="#lightenPlay" onMouseExited="#darkenPlay" opacity="0.5" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_CENTER">
+                                              <image>
+                                                <Image url="http://www.clker.com/cliparts/i/P/7/C/V/X/purple-play-button-md.png" backgroundLoading="false" />
+                                              </image>
+                                            </ImageView>
+                                            <ImageView id="pauseButton" fx:id="pauseButton1" fitHeight="43.0" fitWidth="43.0" onMouseClicked="#handlePause" onMouseEntered="#lightenPause" onMouseExited="#darkenPause" pickOnBounds="true" preserveRatio="true" visible="false">
+                                              <image>
+                                                <Image url="http://www.clker.com/cliparts/7/o/3/5/n/g/pause-button-blue-hi.png" />
+                                              </image>
+                                            </ImageView>
+                                          </children>
+                                        </StackPane>
+                                        <ImageView id="skipButton" fx:id="skipButton1" disable="true" fitHeight="43.999977111816406" fitWidth="43.999977111816406" onMouseClicked="#handleSkip" onMouseEntered="#lightenSkip" onMouseExited="#darkenSkip" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                          <image>
+                                            <Image url="http://icons.iconarchive.com/icons/custom-icon-design/pretty-office-8/256/Skip-forward-icon.png" backgroundLoading="false" />
+                                          </image>
+                                        </ImageView>
+                                        <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                                          <children>
+                                            <Slider fx:id="fpsSlider" max="50.0" min="1.0" onDragDetected="#handleSlideRelease" onDragOver="#handleSlideRelease" onMouseDragEntered="#handleSlideRelease" onMouseDragExited="#handleSlideRelease" onMouseDragOver="#handleSlideRelease" onMouseReleased="#handleSlideRelease" showTickLabels="false" showTickMarks="false" value="25.0" />
+                                            <HBox alignment="CENTER" prefHeight="21.0" prefWidth="100.0" spacing="10.0">
+                                              <children>
+                                                <TextField fx:id="fpsTextField" onAction="#handleSlideEnter" prefHeight="21.0" prefWidth="38.0" text="25" />
+                                                <Label text="fps" />
+                                              </children>
+                                            </HBox>
+                                          </children>
+                                          <padding>
+                                            <Insets top="5.0" />
+                                          </padding>
+                                        </VBox>
+                                      </children>
+                                      <VBox.margin>
+                                        <Insets bottom="20.0" />
+                                      </VBox.margin>
+                                    </HBox>
+                                  </children>
+                                </VBox>
+                              </children>
+                            </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Dock">
+                          <content>
+                            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;">
+                              <children>
+                                <Label id="mainInfo" fx:id="loadLabel" alignment="TOP_LEFT" graphicTextGap="4.0" style="" text="Critter Profile" textFill="$x1" underline="false" wrapText="true" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+                                  <font>
+                                    <Font name="Imprint MT Shadow" size="20.0" fx:id="x2" />
+                                  </font>
+                                </Label>
+                                <ScrollPane hbarPolicy="NEVER" pannable="true" prefHeight="308.0" prefWidth="250.0" style="" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="222.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0">
+                                  <content>
+                                    <AnchorPane id="Content" minHeight="308.0" minWidth="250.0" prefHeight="551.0" prefWidth="250.0" style="">
+                                      <children>
+                                        <Label id="load" fx:id="loadInfo" alignment="TOP_LEFT" focusTraversable="false" prefHeight="551.0" prefWidth="250.0" style="" text="Once you have generated a world, go ahead and select a Critter. &#10;Then you'll be able to place it anywhere in the world. &#10;You can do so by clicking on a Hex and clicking 'Place'.&#10;If you simply want to place a bunch on the board randomly, enter a number next to Add and click 'Add'.&#10;&#10;Happy Christmas!" textAlignment="LEFT" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </ScrollPane>
+                                <VBox alignment="BOTTOM_CENTER" prefHeight="191.0" prefWidth="247.0" spacing="4.0" style="-fx-background-color: rgba(255, 255, 255, 0);&#10;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="16.0">
+                                  <children>
+                                    <HBox alignment="CENTER_LEFT" minHeight="21.0" prefHeight="25.0" prefWidth="237.0" spacing="10.0">
+                                      <children>
+                                        <Label font="$x2" maxHeight="24.0" maxWidth="65.0" minWidth="65.0" prefWidth="65.0" text="Critters" textFill="$x1" HBox.hgrow="NEVER" />
+                                        <Label fx:id="critterErrorMessage" text="" textAlignment="CENTER" textFill="RED" wrapText="true" HBox.hgrow="NEVER" />
+                                      </children>
+                                    </HBox>
+                                    <Separator prefWidth="200.0" />
+                                    <HBox alignment="CENTER_LEFT" prefHeight="24.0" prefWidth="237.0" spacing="10.0">
+                                      <children>
+                                        <Button mnemonicParsing="false" onMouseClicked="#handleSelectCritter" prefWidth="54.0" text="Select" />
+                                        <TextField id="crittersFileTextField" fx:id="critterFileTextField" prefWidth="115.0" promptText="Species ID" text="" />
+                                      </children>
+                                    </HBox>
+                                    <HBox prefHeight="21.0" prefWidth="237.0" spacing="5.0">
+                                      <children>
+                                        <Button id="placeCritters" fx:id="placeCritter" disable="true" mnemonicParsing="false" onMouseClicked="#handlePlaceCritter" prefWidth="54.0" text="Place" />
+                                        <TextField id="critterColumn" fx:id="critterPlaceCol" prefWidth="50.0" promptText="Col" />
+                                        <TextField id="critterRow" fx:id="critterPlaceRow" prefWidth="50.0" promptText="Row" />
+                                      </children>
+                                    </HBox>
+                                    <HBox prefHeight="21.0" prefWidth="237.0" spacing="5.0">
+                                      <children>
+                                        <Button fx:id="addCritters" disable="true" mnemonicParsing="false" onMouseClicked="#handleAddCritters" prefWidth="54.0" text="Add" />
+                                        <TextField id="critterCohort" fx:id="crittersBeingAdded" prefWidth="95.0" promptText="How Many?" />
+                                      </children>
+                                    </HBox>
+                                    <VBox minHeight="33.0" prefHeight="64.0" prefWidth="247.0" spacing="5.0" VBox.vgrow="NEVER">
+                                      <children>
+                                        <HBox alignment="CENTER_LEFT" fillHeight="false" prefHeight="24.0" prefWidth="247.0" spacing="10.0">
+                                          <children>
+                                            <Label font="$x2" text="World" textFill="$x1" />
+                                            <Label id="worldErrorBar" fx:id="worldErrorMessage" text="(no world initialized yet)">
+                                              <textFill>
+                                                <Color blue="0.400" green="0.976" red="1.000" fx:id="x5" />
+                                              </textFill>
+                                            </Label>
+                                          </children>
+                                        </HBox>
+                                        <Separator prefWidth="237.0" />
+                                        <HBox prefHeight="24.0" prefWidth="247.0" spacing="10.0" VBox.vgrow="NEVER">
+                                          <children>
+                                            <Button mnemonicParsing="false" onMouseClicked="#handleNewWorld" text="New">
+                                              <HBox.margin>
+                                                <Insets left="10.0" right="5.0" />
+                                              </HBox.margin>
+                                            </Button>
+                                            <Button mnemonicParsing="false" onMouseClicked="#handleLoadWorld" text="Load" />
+                                            <Label fx:id="worldFileLabel" alignment="CENTER" prefHeight="24.0" text="&lt;no file selected&gt;" textAlignment="CENTER" textFill="#fffb99" />
+                                          </children>
+                                        </HBox>
+                                      </children>
+                                      <VBox.margin>
+                                        <Insets bottom="10.0" />
+                                      </VBox.margin>
+                                    </VBox>
+                                  </children>
+                                </VBox>
+                              </children>
+                              <padding>
+                                <Insets bottom="30.0" />
+                              </padding>
+                            </AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab text="Acknowledgements">
+                          <content>
+                            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                              <children>
+                                <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0">
+                                  <children>
+                                    <Label font="$x2" prefWidth="220.0" text="Acknowledgements" />
+                                    <Separator prefWidth="200.0" />
+                                    <Label alignment="TOP_LEFT" prefHeight="375.0" prefWidth="220.0" style="-fx-background-color: rgba(255, 255, 255, .8);&#10;" text="Hex tiles:&#10;    murz (deviantart handle)&#10;    Avangion (deviantart)&#10;&#10;Utility:&#10;    JavaFX Scene Builder&#10;    Oracle&#10;    George Lopez&#10;&#10;Guidance:&#10;    TAs (especially Clara and Reese for their kind words and patient guidance)&#10;    Professor Myers (for his awesome beard/lack thereof and immense knowledge and wisdom and convenient Office Hours)&#10;&#10;And lastly, thank you for grading this walrus of an assignment!&#10;&#10;     ---kly24 % cq38---" wrapText="true">
+                                      <font>
+                                        <Font name="Lucida Console" size="12.0" />
+                                      </font>
+                                    </Label>
+                                  </children>
+                                </VBox>
+                              </children>
+                            </AnchorPane>
+                          </content>
+                        </Tab>
+                      </tabs>
+                    </TabPane>
+                  </children>
+                  <effect>
+                    <InnerShadow choke="0.20634920634920634" height="53.253968253968246" radius="26.126984126984123" width="53.253968253968246" />
+                  </effect>
+                </AnchorPane>
+              </items>
+            </SplitPane>
+            <ImageView fx:id="splitPaneControl" fitHeight="49.0" fitWidth="49.0" onMouseClicked="#handleSplitPaneControl" onMouseEntered="#handleMouseEnterSplit" onMouseExited="#handleMouseExitSplit" opacity="0.5" pickOnBounds="true" preserveRatio="true" rotate="180.0" y="0.0" StackPane.alignment="TOP_RIGHT">
+              <image>
+                <Image url="http://www.pd4pic.com/images/back-return-arrow-left-button-glossy-blue.png" />
+              </image>
+              <rotationAxis>
+                <Point3D y="1.0" />
+              </rotationAxis>
+              <StackPane.margin>
+                <Insets right="300.0" top="30.0" />
+              </StackPane.margin>
+            </ImageView>
+            <HBox id="status" fx:id="coordinates" alignment="CENTER" maxHeight="30.0" maxWidth="200.0" minHeight="30.0" minWidth="200.0" prefHeight="30.0" prefWidth="200.0" spacing="30.0" visible="false" StackPane.alignment="TOP_LEFT">
+              <children>
+                <StackPane id="coordinates" maxHeight="30.0" maxWidth="70.0" prefHeight="97.0" prefWidth="190.0" visible="true">
+                  <children>
+                    <Rectangle arcHeight="15.0" arcWidth="66.0" height="30.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeType="INSIDE" strokeWidth="2.1" style="-fx-background-color: rgba(0, 100, 100, .8);&#10;" visible="true" width="70.0">
+                      <fill>
+                        <Color blue="0.392" green="0.392" opacity="0.757" red="0.000" fx:id="x3" />
+                      </fill>
+                    </Rectangle>
+                    <Label id="coordinates" fx:id="coordinatesText" alignment="CENTER" contentDisplay="CENTER" font="$x2" minHeight="30.0" minWidth="70.0" prefWidth="50.0" style="" text="" textAlignment="CENTER" textFill="#fff500" visible="true" StackPane.alignment="CENTER">
+                      <effect>
+                        <InnerShadow height="43.17460317460317" radius="21.087301587301585" width="43.17460317460317" />
+                      </effect>
+                      <StackPane.margin>
+                        <Insets fx:id="x4" />
+                      </StackPane.margin>
+                    </Label>
+                  </children>
+                </StackPane>
+                <StackPane id="coordinates" maxHeight="30.0" maxWidth="106.0" prefHeight="30.0" prefWidth="106.0" visible="true">
+                  <children>
+                    <Rectangle arcHeight="15.0" arcWidth="66.0" fill="$x3" height="30.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeType="INSIDE" strokeWidth="2.1" style="-fx-background-color: rgba(0, 100, 100, .8);&#10;" visible="true" width="109.0" />
+                    <Label fx:id="stepCounterLabel" alignment="CENTER" font="$x2" maxHeight="30.0" maxWidth="130.0" minHeight="30.0" minWidth="80.0" prefHeight="30.0" prefWidth="80.0" text="Steps:" textAlignment="CENTER" visible="true" StackPane.alignment="CENTER" />
+                  </children>
+                </StackPane>
+              </children>
+              <StackPane.margin>
+                <Insets left="30.0" top="20.0" />
+              </StackPane.margin>
+            </HBox>
+          </children>
+          <padding>
+            <Insets fx:id="x4" />
+          </padding>
+        </StackPane>
+      </children>
+    </VBox>
+  </children>
+</fx:root>

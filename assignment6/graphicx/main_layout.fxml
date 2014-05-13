@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="graphicx.Controls" 
+    xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" 
+    styleClass="root">
+  <padding><Insets top="25" right="25" bottom="10" left="25" /></padding>
+  
+  <Text id="welcome-text" text="WELCOME TO CRITTER WORLD!" 
+      GridPane.columnIndex="0" GridPane.rowIndex="0" 
+      GridPane.columnSpan="2"/>
+  
+  <Label text="This will get deleted later" 
+      GridPane.columnIndex="0" GridPane.rowIndex="1" />
+  
+  <Label text="I edited this from an existing JavaFX Tutorial. Thank you Oracle" 
+      GridPane.columnIndex="0" GridPane.rowIndex="2" />
+      
+  <Label text="This is a test"
+      GridPane.columnIndex="0" GridPane.rowIndex="3" />
+  
+  <HBox spacing="10" alignment="bottom_right" 
+      GridPane.columnIndex="1" GridPane.rowIndex="4">
+      <Button text="Load World" 
+       onAction="#handleSubmitButtonAction" />
+      <TextField fx:id="thefield" promptText="what"/>
+  </HBox>
+  
+  <Text fx:id="actiontarget" 
+      GridPane.columnIndex="1" GridPane.rowIndex="6" />
+  
+  <stylesheets>
+    <URL value="@Styling.css" />
+  </stylesheets>
+  
+</GridPane>

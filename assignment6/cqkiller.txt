@@ -1,0 +1,11 @@
+memsize: 8
+defense: 100
+offense: 100
+size: 10
+energy: 2500
+posture: 1
+
+ahead[1] > 0 --> attack;
+ahead[1] = 0 - 1 and random[2] = 0 --> right;
+ahead[1] = 0 - 1 and random[2] = 1 --> left;
+1=1 --> forward;

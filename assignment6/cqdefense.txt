@@ -1,0 +1,13 @@
+memsize: 8
+defense: 50
+offense: 10
+size: 200
+energy: 4000
+posture: 20
+
+ahead[1] > 0 --> backward;
+ahead[0-1] < 0 - 1 --> right;
+ahead[0-1] < 0 - 1 --> eat;
+ahead[1] != 0-1 --> wait;
+ahead[1] = 0-1 --> right;
+

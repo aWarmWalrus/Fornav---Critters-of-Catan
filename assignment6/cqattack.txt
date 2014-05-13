@@ -1,0 +1,13 @@
+memsize: 9
+defense: 10
+offense: 50
+size: 20
+energy: 4000
+posture: 20
+butts: 305
+
+ahead[1] > 0 --> attack;
+ahead[0-1] < 0 - 1 --> mem[7]:=mem[7]+1 eat;
+ahead[1] != 0-1 --> forward;
+ahead[1] = 0-1 --> right;
+

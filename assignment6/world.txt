@@ -1,0 +1,8 @@
+rock 2 2
+rock 3 6
+rock 10 10
+critter critter1.txt 5 2 3
+critter critter1.txt 4 3 1
+critter critter1.txt 4 4 2
+critter critter1.txt 10 9 4
+critter critter1.txt 10 8 5

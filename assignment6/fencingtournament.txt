@@ -1,0 +1,2 @@
+critter dumbcritter.txt 1 0 0
+critter foreverwaiting.txt 0 0 0

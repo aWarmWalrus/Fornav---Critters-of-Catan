@@ -1,0 +1,26 @@
+memsize: 8
+defense: 5
+offense: 5
+size: 5
+energy: 2005
+posture: 1
+
+ENERGY = 2005 or ENERGY = 2010 --> wait;
+
+ENERGY = 2015 or 
+ENERGY = 1985 or 
+ENERGY = 1925 or 
+ENERGY = 1910 --> forward;
+
+ENERGY = 2000 or ENERGY = 1970 --> backward;
+
+ENERGY < 1960 and ENERGY > 1940 --> left;
+
+ENERGY < 1945 and ENERGY > 1925 --> right;
+
+ENERGY = 1895 --> eat;
+
+ENERGY = 1900 --> grow;
+
+ENERGY < 1000 --> bud;
+
