@@ -18,6 +18,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.StrokeType;
 import javafx.stage.Stage;
 import student.Creator;
@@ -46,17 +47,24 @@ public class View extends Parent implements Observer {
 	private static final Image rock = new Image(
 			"http://i.imgur.com/ONq4cnp.png");
 	private static final Image ladybug = new Image(
-			"http://i.imgur.com/IXlxN6Z.png");
+			"http://www.cyberbotics.com/files/media/ladybug.png");
 	private HashMap<Critter, Circle> bugList;
-	private HashMap<Hex, Polygon> hexList;
+	private HashMap<Hex, HexImage> hexList;
 	public Polygon selectedHex = null;
-	private Polygon whiteSpace;
 	private int selectedCol;
 	private int selectedRow;
 	private ArrayList<Critter> moveQueue;
 	private ArrayList<Hex> changeQueue;
 	private ArrayList<Circle> deathQueue;
 	private Timer mainTimer;
+	private double left;
+	private double right;
+	private double bottom;
+	private double top;
+	private Rectangle border;
+	private Rectangle whiteSpace;
+	public int maxHeight;
+	public int maxWidth;
 
 	/**
 	 * The view has a timer that updates itself every 33 ms. It keeps track of
@@ -70,14 +78,15 @@ public class View extends Parent implements Observer {
 		pb = root.princessBubblegum;
 		big = new Group();
 		RADIUS = 50; // !!
-		bugList = new HashMap<Critter, Circle>();
-		hexList = new HashMap<Hex, Polygon>();
 		getChildren().add(big);
 		Platform.setImplicitExit(false);
 		moveQueue = new ArrayList<Critter>();
 		changeQueue = new ArrayList<Hex>();
 		deathQueue = new ArrayList<Circle>();
 		mainTimer = new Timer();
+//		border = new Rectangle();
+		whiteSpace = new Rectangle();
+//		big.getChildren().add(whiteSpace);
 		mainTimer.schedule(new TimerTask() {
 			@Override
 			public void run() {
@@ -93,9 +102,6 @@ public class View extends Parent implements Observer {
 		P.rint("should draw critters now");
 		assert world == pb.getWorld();
 		world.addObserver(this);
-		if (!big.getChildren().isEmpty()) {
-			big.getChildren().removeAll(hexList.values());
-		}
 		thatWorld = world;
 		drawWorld();
 	}
@@ -144,34 +150,37 @@ public class View extends Parent implements Observer {
 					}
 					final int cX = (int) xx(c.getCol());
 					final int cY = (int) yy(c.getCol(), c.getRow());
+					Circle crit;
 					if (!bugList.containsKey(c)) {
 						ImagePattern x = new ImagePattern(ladybug, 0, 0, 1, 1,
 								true);
-						Circle crit = new Circle(cX, cY, RADIUS, x);
+						crit = new Circle(RADIUS, x);
 						bugList.put(c, crit);
 						crit.setMouseTransparent(true);
-						ColorAdjust ca = new ColorAdjust();
-						ca.setHue((c.getMem(7) / 100.0));
-						crit.setEffect(ca);
-						crit.setRotate(c.getDir() * 60);
-						crit.setRadius(RADIUS - 20 + c.getMem(3) * 1.5);
-						big.getChildren().add(crit);
 					} else {
-						final Circle crit = bugList.get(c);
-						P.rint("drawing critters");
-						crit.setCenterX(cX);
-						crit.setCenterY(cY);
-						crit.setRotate(c.getDir() * 60);
-						crit.setRadius(RADIUS - 20 + c.getMem(3) * 1.5);
+						crit = bugList.get(c);
 					}
+					
+					ColorAdjust ca = new ColorAdjust();
+					ca.setHue((c.getMem(7) / 100.0));
+					crit.setEffect(ca);
+					crit.setCenterX(cX);
+					crit.setCenterY(cY);
+					crit.setRotate(c.getDir() * 60 - 33);
+					crit.setRadius(RADIUS - 20 + c.getMem(3) * 1.5);
 				}
 				for (Hex h : changeQueue) {
-					Polygon hex = hexList.get(h);
-					if (h.getCheerios() == 0) {
-						hex.setFill(new ImagePattern(ground));
-					} else {
+					HexImage hi = hexList.get(h);
+					Polygon hex = hi.hex;
+					if (h.isBorder()) {
+						hex.setFill(new ImagePattern(water));
+						hex.setStrokeWidth(0);
+					} else if (h.isRock())
+						hex.setFill(new ImagePattern(rock));
+					else if (h.getCheerios() > 0)
 						hex.setFill(new ImagePattern(grass));
-					}
+					else
+						hex.setFill(new ImagePattern(ground));
 				}
 				for (Circle c : deathQueue) {
 					P.rint("Erase Critter status: "
@@ -183,11 +192,39 @@ public class View extends Parent implements Observer {
 				Stage i = root.main.getStage();
 				root.stageAnchorPane.setMinSize(i.getWidth(), i.getHeight());
 				root.stageAnchorPane.setMaxSize(i.getWidth(), i.getHeight());
-
 				root.stepCounterLabel.setText("Steps: "
 						+ (pb.hasWorld() ? pb.getWorld().getStep() : 0));
 			}
 		});
+	}
+	
+	public void pruneWorld() {
+		for(HexImage c : hexList.values()) {
+			if(c.cX + RADIUS > right + RADIUS * 2 || 
+					c.cX - RADIUS < left - RADIUS * 2||
+					c.cY - RADIUS < top - RADIUS * 2||
+					c.cY + RADIUS > bottom + RADIUS * 2){
+				big.getChildren().remove(c.hex);
+			} else {
+				if (!big.getChildren().contains(c.hex)) {
+					big.getChildren().add(c.hex);
+				}
+			}
+		}
+	}
+	
+	public void setBorder(double L, double R, double T, double B){
+		left = L;
+		right = R;
+		top = T;
+		bottom = B;		
+//		border.setX(L);
+//		border.setY(T);
+//		border.setWidth(R-L);
+//		border.setHeight(B-T);
+////		border.setStroke(Color.RED);
+////		border.setStrokeWidth(3);
+//		border.setFill(null);
 	}
 
 	/**
@@ -222,12 +259,14 @@ public class View extends Parent implements Observer {
 	 * @param bot
 	 */
 	protected void drawWorld(double right, double top, double left, double bot) {
+		big.getChildren().clear();
+		hexList = new HashMap<Hex, HexImage>();
+		bugList = new HashMap<Critter, Circle>();
 		P.rint("drawing world");
 		int numrows = thatWorld.MAX_ROW;
 		int numcols = thatWorld.MAX_COLUMN;
 		int usableRows = numrows - (numcols/2);
 		
-//		double preferredWidth = (numcols + 2)*2*RADIUS + 300;
 		handleExpandPane();
 		
 		setWorldHeight((usableRows + 2)*2*RADIUS*Math.cos(Math.PI/6));
@@ -246,6 +285,17 @@ public class View extends Parent implements Observer {
 		for (Critter c : thatWorld.getCritters()) {
 			P.rint("drawing critters");
 			moveQueue.add(c);
+		}
+		whiteSpace.setX(0);
+		whiteSpace.setY(0);
+		whiteSpace.setHeight(yy(2, 0));
+		whiteSpace.setWidth(xx(thatWorld.MAX_COLUMN + 2));
+		whiteSpace.setStroke(null);
+		whiteSpace.setStrokeWidth(5);
+		whiteSpace.setFill(Color.WHITESMOKE);
+		if(!big.getChildren().contains(whiteSpace)){
+			big.getChildren().add(whiteSpace);
+			System.out.println("added whitespace");
 		}
 	}
 
@@ -285,17 +335,6 @@ public class View extends Parent implements Observer {
 	}
 
 	/**
-	 * This draws a standard Hexagon based upon the initial height and width
-	 * of the AnchorPane which will hold it.
-	 * @param hexy
-	 */
-	private void drawHexagon(final Hex hexy) {
-		double right = root.theView.getWidth() + RADIUS;
-		double top = root.theView.getHeight() + RADIUS;
-		drawHexagon(hexy, right, top, 0, 0);
-	}
-
-	/**
 	 * This draws a Hexagon based upon the current bounds of the AnchorPane.
 	 * We intended to use this function to only draw the Hexes the view could
 	 * see, but we ended up not.
@@ -311,6 +350,7 @@ public class View extends Parent implements Observer {
 		final int row = hexy.getRow();
 		double hexCenterX = xx(col);
 		double hexCenterY = yy(col, row);
+		
 		final Polygon hex = new Polygon(hexCenterX + .5 * RADIUS,
 				(hexCenterY + vertDisp()), hexCenterX + RADIUS, hexCenterY,
 				hexCenterX + .5 * RADIUS, (hexCenterY - vertDisp()), hexCenterX
@@ -320,19 +360,17 @@ public class View extends Parent implements Observer {
 		hex.setStroke(Color.GREEN);
 		hex.setStrokeWidth(2);
 		hex.setStrokeType(StrokeType.INSIDE);
+		
+		HexImage ih = new HexImage(hex, hexCenterX, hexCenterY);
+		
 		if (!hexList.containsValue(hex))
-			hexList.put(hexy, hex);
+			hexList.put(hexy, ih);
 
 		if (hexy.isBorder()) {
 			hex.setFill(new ImagePattern(water));
 			hex.setStrokeWidth(0);
-			//TODO find out a way to set the border to clear when mouse exits
-		} else if (hexy.isRock())
-			hex.setFill(new ImagePattern(rock));
-		else if (hexy.getCheerios() > 0)
-			hex.setFill(new ImagePattern(grass));
-		else
-			hex.setFill(new ImagePattern(ground));
+			return;
+		}
 
 		hex.setOnMouseEntered(new EventHandler<MouseEvent>() {
 			@Override
@@ -371,7 +409,7 @@ public class View extends Parent implements Observer {
 				update(hexy);
 			}
 		});
-		big.getChildren().add(hex);
+		changeQueue.add(hexy);
 	}
 	
 	/**
@@ -390,27 +428,19 @@ public class View extends Parent implements Observer {
 	 * @return
 	 */
 	private double yy(int col, int row) {
-		int newRow = row - (col + 1) / 2;// ((2 * ((thatWorld.MAX_ROW + 2) -
-											// row) + col) -
-											// (thatWorld.MAX_COLUMN + 2)) /
-											// 2;//
-//		return (col % 2 == 1) ? worldHeight - 2 * vertDisp() * newRow
-//				- vertDisp() : worldHeight - 2 * vertDisp() * newRow;
+		int newRow = row - (col + 1) / 2;
 		return (col % 2 == 1) ? worldHeight - (2 * vertDisp() * newRow
 						+ vertDisp()) : worldHeight - (2 * vertDisp() * newRow);
 	}
 
-	protected void handleCollapsePane() { //the split
-		if (whiteSpace != null)	big.getChildren().remove(whiteSpace);
+	protected void handleCollapsePane() {
+//		whiteSpace.setWidth(thatWorld.MAX_COLUMN* 2 * RADIUS);
 	}
 	
 	protected void handleExpandPane() {
 		int numcols = thatWorld.MAX_COLUMN;
 		double preferredWidth = (numcols + 2)*2*RADIUS;
-		whiteSpace = new Polygon(0, 0, 
-				preferredWidth, 0, preferredWidth, 10, 0, 10);
-		whiteSpace.setFill(Color.WHITE);
-		big.getChildren().add(whiteSpace);
+//		whiteSpace.setWidth(preferredWidth);
 	}
 	
 	
@@ -420,5 +450,18 @@ public class View extends Parent implements Observer {
 	 */
 	public Group getRoot() {
 		return big;
+	}
+	
+	class HexImage {
+		
+		final public Polygon hex;
+		final public double cX;
+		final public double cY;
+		
+		HexImage(Polygon h, double cX, double cY) {
+			hex = h;
+			this.cX = cX;
+			this.cY = cY;
+		}
 	}
 }

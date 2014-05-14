@@ -122,9 +122,10 @@ public class Verb {
 			if (state != 0){
 				ladybug.setEnergy(ladybug.getMem(4) - nrgReq);
 				ladybug.setSize(ladybug.getMem(3) + 1); // grows by one unit
+				thisWorld.notifyOfCritter(ladybug);
 				if (state < 0) handleUnVerb(Verb.Type.DIE);
 				return true;
-			} 
+			}
 			assert ladybug.getWorld() == null; //state == 0, so critter has died.
 			return false;			
 			

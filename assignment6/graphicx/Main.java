@@ -1,16 +1,7 @@
 package graphicx;
 
-import java.awt.Dimension;
-import java.awt.Toolkit;
-
 import javafx.application.Application;
-import javafx.application.Platform;
-import javafx.event.EventHandler;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Priority;
-import javafx.scene.layout.VBox;
+import javafx.scene.*;
 import javafx.stage.Stage;
 import student.Creator;
 import util.P;
@@ -26,7 +17,6 @@ public class Main extends Application {
 	
 	public static void main(String[] args) {
 		P.rototyping = false;
-		getScreenData();
 		princessBubblegum = Creator.getInstance();
 		Application.launch(args);
 	}
@@ -40,16 +30,7 @@ public class Main extends Application {
 		root = new Group();
 		root.getChildren().add(controller);
 		stage.setScene(new Scene(root));
-
 		stage.show();
-	}
-	
-	private static void getScreenData() {
-		P.rint("inside getScreenData");
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		SCREEN_HEIGHT = screenSize.getHeight();
-		SCREEN_WIDTH = screenSize.getWidth();
-		P.rint("your screensize is "+SCREEN_HEIGHT+ " by " + SCREEN_WIDTH);
 	}
 	
 	/**
@@ -73,5 +54,4 @@ public class Main extends Application {
 	public Group getRoot() {
 		return root;
 	}
-	
 }

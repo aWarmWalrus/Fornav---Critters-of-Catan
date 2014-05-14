@@ -56,6 +56,9 @@ public class Controller extends AnchorPane {
 	public boolean playing;
 	private Critter currentCritter;
 	ArrayList<Button> buttonList = new ArrayList<Button>();	
+	
+	private double height;
+	private double width;
 
 
 	@FXML AnchorPane stageAnchorPane;
@@ -134,8 +137,20 @@ public class Controller extends AnchorPane {
             throw new RuntimeException(exception);
         }
         view = new View(this);
+        
+        setDimensions();
+
         theView.getChildren().add(view);
         addButtons();
+	}
+	
+	private void setDimensions() {
+		System.out.println("dimensions set!");
+		height = main.getStage().getHeight();
+		width = main.getStage().getWidth();
+		double top = viewScrollPane.getVvalue() * (theView.getHeight() - height);
+		double left = viewScrollPane.getHvalue() * (theView.getWidth() - width);
+		view.setBorder(left, left + width, top, top + height);
 	}
 	
 	/**
@@ -423,47 +438,20 @@ public class Controller extends AnchorPane {
 	}
 	
 	@FXML protected void handleMousePressed(MouseEvent e) {
-//		P.rint("Your mouse clicked the coordinates (" + e.getX() + " ," + e.getY() + " )");
-//		lastClickX = e.getX();
-//		lastClickY = e.getY();
+//		setDimensions();
+//		view.pruneWorld();
 	}
 	
 	@FXML protected void handleMouseReleased(MouseEvent e) {
-
+//		setDimensions();
+//		view.pruneWorld();
 	}
 	
 	@FXML protected void handleMouseDragging(MouseEvent e) {
-//		P.rint("dragging!");
-////		P.rint(e.getX() + ", " + e.getY());
-//		double dX = e.getX() - lastClickX;
-//		double dY = e.getY() - lastClickY;
-//		double estCenterX = anchorCenterX + dX;
-//		double estCenterY = anchorCenterY + dY;
-//		P.rint("dX = " + dX);
-//		P.rint("dY = " + dY);
-//		P.rint("estCenterX = " + estCenterX);
-//		P.rint("estCenterY = " + estCenterY);
-//		if(estCenterX < anchorMaxDX) {
-//			P.rint("cond 1 is true");
-//		}
-//		if( estCenterX > viewScrollPane.getWidth() - anchorMaxDX ){
-//			P.rint("cond 2 is true");
-//		}
-//		if (estCenterY < anchorMaxDY) {
-//			P.rint("cond 3 is true");
-//		}
-//		if (estCenterY > viewScrollPane.getHeight() - anchorMaxDY) {
-//			P.rint("cond 4 is true");
-//		}
-//			anchorCenterX = estCenterX;
-//			anchorCenterY = estCenterY;
-////	}
-//		P.rint(anchorCenterX + ", " + anchorCenterY);
-//
-//		P.rint(viewScrollPane.getHvalue() + ", " + viewScrollPane.getVvalue());
-//		P.rint(anchorCenterX +  ", " + anchorCenterY);
-//		lastClickX = e.getX();
-//		lastClickY = e.getY();
+		setDimensions();
+		view.pruneWorld();
+//		System.out.println(viewScrollPane.getHvalue() + ", " + viewScrollPane.getVvalue());
+//		System.out.println("and " + theView.getWidth() + ", " + theView.getHeight());
 	}
 	
 	/**
@@ -577,7 +565,6 @@ public class Controller extends AnchorPane {
 	
 	public void disableActions() {
 		for (Button b: buttonList) {
-			System.out.println("leftButton : " + (leftButton == null));
 			b.setDisable(true);
 		}
 	}

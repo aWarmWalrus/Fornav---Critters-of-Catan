@@ -1,12 +1,7 @@
 package student;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Observable;
-import java.util.Observer;
+import java.io.*;
+import java.util.*;
 
 import parse.Parser;
 import parse.ParserFactory;
@@ -240,6 +235,7 @@ public class Creator extends Observable {
 
 		try {
 
+			@SuppressWarnings("resource")
 			BufferedReader script = new BufferedReader(new FileReader(worldtxt));
 			String line = script.readLine();
 			while (line != null) {

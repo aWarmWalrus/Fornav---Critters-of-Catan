@@ -91,9 +91,7 @@ public class Critter {
 	}
 
 	public void setNextVerb(Verb.Type vb) {
-		toExecute = vb;
-		Random r = new Random();
-		
+		toExecute = vb;		
 	}
 
 	/**
@@ -139,12 +137,6 @@ public class Critter {
 											.println("    >>Invalid arguments. "
 													+ "Update failed.");
 								} else {
-									System.out
-											.println(" ~Critter update successful! "
-													+ "mem["
-													+ index
-													+ "] := "
-													+ value);
 									mem[index] = value;
 								}
 							} else {
@@ -217,10 +209,6 @@ public class Critter {
 
 		}// end of nullary if body
 	}
-	
-	private void executeAction(Verb b) {
-		
-	}
 
 	private void executeUnaryAction(UnaryAction.Op unary, int index) {
 		Verb mrVerb = new Verb(this);
@@ -287,6 +275,7 @@ public class Critter {
 		case LEFT:
 			P.rint("  ~Critter is attempting to turn left...");
 			mrVerb.handleUnVerb(Verb.Type.LEFT);
+			
 			break;
 		case MATE:
 			P.rint("  ~Critter is attempting to mate...");
